@@ -13,12 +13,20 @@
 # print (list.remove(23))
 # print(list)
 
-a = 20
-b=2
-print( a>b)
-print(a==b)
-print(a!=b)
-print(a%b)
-print(a**b)
-print(a/b)
-print(a)
+# a = 20
+# b=2
+# print( a>b)
+# print(a==b)
+# print(a!=b)
+# print(a%b)
+# print(a**b)
+# print(a/b)
+# print(a)
+num = 1
+fact=1
+while num<=5:
+  fact = fact*num
+  
+  num+=1
+print(fact)
+    
