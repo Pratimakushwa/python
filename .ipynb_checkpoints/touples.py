@@ -22,11 +22,25 @@
 # print(a**b)
 # print(a/b)
 # print(a)
-num = 1
-fact=1
-while num<=5:
-  fact = fact*num
+# num = 1
+# fact=1
+# while num<=5:
+#   fact = fact*num
   
-  num+=1
-print(fact)
-    
+#   num+=1
+# print(fact) 
+
+
+tup=(1,3,4,5,6,7)
+min =tup[0]
+for i in tup:
+    if i<min:
+        min = i
+print(min)
+
+set={1,3,4,5,5}
+a=set 
+a = set.copy()
+set.add(20)
+print(a)
+print(set)
