@@ -29,10 +29,33 @@
 # print(str1[1:-2:-1])
 # print(str1[-1:22:])
 # print(str1[-4:-7:-1])
-num = int(input("enter the number"))
-if num>0:
-    print("positive")
+# num = int(input("enter the number"))
+# if num>0:
+#     print("positive")
+# else:
+#     print("negative")
+# age =int(input("enter the number"))
+# if age>=18:
+#     print("eligiable for voting")
+# else:
+#     print("not eligiable for voting")
+# a = int (input("enter the number"))
+# b = int (input("enter the number b"))
+# c = int (input("enter the number c"))
+# if a>=b and a>=c:
+#     print("a is greater")
+# elif b>=a and b>=c:
+#     print("b is greatest")
+# else:
+#     print("c is greatest")
+# num =int(input("enter the number"))
+# if num%2==0:
+#     print("even")
+
+# else:
+#     print("odd")
+year = int(input("enter the year:"))
+if year%4 ==0 and year% 400== 0:
+    print("leap year")
 else:
-    print("negative")
-
-
+    print("not a leap year")
