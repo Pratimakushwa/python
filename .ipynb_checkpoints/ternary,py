@@ -13,12 +13,12 @@
 # print("correct")if (a==p) else print("incorrect")
 # a= int (input("enter the number"))
 # print("true") if (a>=0 and a<=100) else print("false")
-# a= int (input("enter the number"))
+# a = int (input("enter the number"))
 # print("positive") if (a>0 ) else print("negative")
 
 
 # print (list(range(-3,5,1)))
-print (list(range(0,-5,1)))
+# print (list(range(0,-5,1)))
 
 
 
