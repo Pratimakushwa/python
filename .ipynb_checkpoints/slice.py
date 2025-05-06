@@ -54,8 +54,44 @@
 
 # else:
 #     print("odd")
-year = int(input("enter the year:"))
-if year%4 ==0 and year% 400== 0:
-    print("leap year")
-else:
-    print("not a leap year")
+# year = int(input("enter the year:"))
+# if year%4 ==0 and year% 400== 0:
+#     print("leap year")
+# else:
+#     print("not a leap year")
+
+
+# age =int(input("enter the number"))
+# if age>=18:
+#     print("eligiable for voting")
+# else:
+#     print("not eligiable for voting")
+
+# ch =input("enter the charcter")
+# if (ch =='a'or ch=='e'or ch=='i'or ch=='o'or ch=='u'):
+#     print("vowel")
+# else:
+#     print("consonant")
+
+
+# num =int(input("enter the number"))
+# if  num%5==0:
+#     print("divisiable")
+# else:
+#     print("not divisiable")
+
+# num =int(input("enter the number"))
+# p=1234
+# if num==p:
+#     print("correct")
+# else:
+#     print("incorrect")
+
+# a=['a','e','i','o','u']
+# ch= input("enter the charcter")
+# if ch in a:
+#     print("vowel")
+# else:
+#     print("consonent")
+
+menu =[  ]
