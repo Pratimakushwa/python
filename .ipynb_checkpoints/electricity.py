@@ -57,3 +57,15 @@
 #        print("price:3000")
 #     else:
 #        print("invalid")
+website = input(" enter your website name")
+if website=="flipkart":
+ s = input(" electronic or clothes")
+ if s=="electronic":
+   p=input("enter mobile or TV")
+   if p=="mobile":
+     print("price is 30000")
+   elif p=="TV":
+     print("price is 50000")
+if s=="clothes":
+  
+
