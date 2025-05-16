@@ -18,9 +18,16 @@
     # print(i)
     # print(i,"=",li[i])
 
+# li=[1,2,3,4,56]
+# mx=0
+# for i in range(len( li)):
+#     if mx <li[i]:
+#         mx=li[i]
+# print(mx)
+
 li=[1,2,3,4,56]
-mx=0
+min=56
 for i in range(len( li)):
-    if mx >li(i):
-        mx=li[i]
-print(mx)
+    if min >li[i]:
+        min=li[i]
+print(min)
