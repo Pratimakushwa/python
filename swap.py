@@ -81,32 +81,41 @@
 # else:
 #     print("consonent")
 
-# char = input("enter the charcter")
-# if char>='a' and  char>='z' and char>= 'A' and char>='Z':
+# char = input("enter the charcter")[0]
+# if ('a'<=char <='z')  or  ('A'<=char <='Z'):
 #     print("alphabet")
 # else:
-#     print("not a alphabet")
+#     print("not a alphabet") 
 
 # year= int (input("enter the year"))
-# if year%400==0 and year%4==0:
+# if year%4 == 0 or year%400 == 0:
 #     print("leap year")
 # else:
 #     print("not a leap year")
 
 
-char= (input("enter the number"))
-if char>= 'a' and char<='z' and char>='A' and char<='Z':
-    print("alphabet")
-elif char>='0' and char>='9':
-    print("digit")
-else:
-    print("special symbol")
+# char= (input("enter the charcter"))
+# if ('a'<=char<='z')or('A'<=char<'Z'):
+#     print("alphabet")
+# elif '0'<=char<'9':
+#     print("digit")
+# else:
+#     print("special symbol")
 
 
-# char= input("enter the charcter")
-# if char>='a' and char<='z':
+
+# char = input("Enter the character: ")
+
+# if 'a' <= char <= 'z':
 #     print("lowerCase")
-# elif  char>='A' and char<='Z':
-#     print(" upperCase")
+# elif 'A' <= char <= 'Z':
+#     print("upperCase")
 # else:
 #     print("invalid")
+
+
+week= int(input("enter the week number"))
+if week==7:
+    print("weekend")
+else:
+    print("weekday")
