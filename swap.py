@@ -114,8 +114,36 @@
 #     print("invalid")
 
 
-week= int(input("enter the week number"))
-if week==7:
-    print("weekend")
+# week= int(input("enter the week number 1 to 7"))
+# if week==1:
+#     print("monday")
+# elif week==2:
+#     print("tuesday")
+# elif week==3:
+#     print("wednesday")
+# elif week==4:
+#     print("thursdaay")
+# elif week ==5:
+#     print("fridaay")
+# elif week == 6:
+#     print("saturady")
+
+# else:
+#     print("weekday")
+
+month= int(input("enter the month number 1 to 12"))
+if month==1:
+    print("january 30 day")
+elif month==2:
+    print("feburary 28or 29 day")
+elif month==3:
+    print("march 31 days")
+elif month==4:
+    print("april 30 days")
+elif month ==5:
+    print("may 31 days")
+elif month == 6:
+    print("june 30 days")
+
 else:
     print("weekday")
