@@ -131,19 +131,53 @@
 # else:
 #     print("weekday")
 
-month= int(input("enter the month number 1 to 12"))
-if month==1:
-    print("january 30 day")
-elif month==2:
-    print("feburary 28or 29 day")
-elif month==3:
-    print("march 31 days")
-elif month==4:
-    print("april 30 days")
-elif month ==5:
-    print("may 31 days")
-elif month == 6:
-    print("june 30 days")
+# month= int(input("enter the month number 1 to 12"))
+# if month==1:
+#     print("january 30 day")
+# elif month==2:
+#     print("feburary 28or 29 day")
+# elif month==3:
+#     print("march 31 days")
+# elif month==4:
+#     print("april 30 days")
+# elif month ==5:
+#     print("may 31 days")
+# elif month == 6:
+#     print("june 30 days")
 
+# else:
+#     print("weekday")
+
+
+# num=int(input("enter the number"))
+# first=0
+# second=1
+# print( first,second)
+# for i in range(num-2):
+#  next= first+second
+#  first= second
+#  second= next
+#  print(next,end="")
+
+
+a= int (input("enter the number"))
+ans=0
+for i in range(1, a ):
+ if a%i==0:
+   ans+=i
+if ans==a:
+  print("perfact")
 else:
-    print("weekday")
+  print("not perfact")
+  
+
+
+
+# li=[1,2,3,4,5]
+# max=0
+# for i  in range (len(li)):
+#     if max<li[i]:
+#         max=li[i]
+#     second= second< max
+#     print(second) 
+
