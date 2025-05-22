@@ -41,11 +41,7 @@
 # print(min)
 
 
-# num= int(  input("enter the number"))
-# if num%5==0 and num%3==0:
-#     print("true")
-# else:
-#   print("false")
+
 
 # num= int(input("enter the enumber"))
 # if num>0:
@@ -81,11 +77,11 @@
 # else:
 #     print("consonent")
 
-# char = input("enter the charcter")[0]
-# if ('a'<=char <='z')  or  ('A'<=char <='Z'):
+# any = input("enter the charcter")
+# if  (any>'a'and any<'z') or (any>'A' and any<'Z'):
 #     print("alphabet")
 # else:
-#     print("not a alphabet") 
+#     print("not  alphabet") 
 
 # year= int (input("enter the year"))
 # if year%4 == 0 or year%400 == 0:
@@ -131,7 +127,7 @@
 # else:
 #     print("weekday")
 
-# month= int(input("enter the month number 1 to 12"))
+# month= int(input("enter the month number 1 to 12:"))
 # if month==1:
 #     print("january 30 day")
 # elif month==2:
@@ -144,9 +140,21 @@
 #     print("may 31 days")
 # elif month == 6:
 #     print("june 30 days")
+# elif month==7:
+#     print("31 days")
+# elif month==8:
+#     print(" 31 days")
+# elif month==9:
+#     print(" 30 days")
+# elif month ==10:
+#     print("31 days")
+# elif month == 11:
+#     print(" 30 days")
+# elif month == 12:
+#     print("31 days")
 
 # else:
-#     print("weekday")
+#     print("invalid")
 
 
 # num=int(input("enter the number"))
@@ -160,15 +168,15 @@
 #  print(next,end="")
 
 
-a= int (input("enter the number"))
-ans=0
-for i in range(1, a ):
- if a%i==0:
-   ans+=i
-if ans==a:
-  print("perfact")
-else:
-  print("not perfact")
+# a= int (input("enter the number"))
+# ans=0
+# for i in range(1, a ):
+#  if a%i==0:
+#    ans+=i
+# if ans==a:
+#   print("perfact")
+# else:
+#   print("not perfact")
   
 
 
@@ -179,5 +187,38 @@ else:
 #     if max<li[i]:
 #         max=li[i]
 #     second= second< max
-#     print(second) 
+#     print(secon
+# num=int(input("enter the number"))
+# if num>0:
+#     print("positive")
+# elif num<0:
+#     print("negative")
+# else:
+#     print("zero")
 
+# amount = int (input ("enter a amount"))
+# notes=[2000,1000,500,200,100,50,20 , 10 ,5,2,1]
+# for note in notes:
+#     if amount>=note:
+#         count=amount//note
+#         amount%=note
+#         print (f"{note} x {count}={note*count}")
+
+# # write a program to input  angle of triangle and check whether  triangle valid or not
+# a = int (input("enter the  first number"))
+# b = int (input("enter the  second number"))
+# c = int (input("enter the  third number"))
+# if a>0 and b>0 and c>0 and a+b+c ==180:
+#     print ("triangle")
+# else:
+#     print("not a triangle")
+
+    # write a program to input  angle of triangle and check whether  triangle valid or not
+a = float (input("enter the  first side"))
+b = float (input("enter the  second side"))
+c = float (input("enter the  third side"))
+if  a+b>c and b+c>a and a+c>b:
+
+    print ("triangle is valid")
+else:
+    print("not a triangle is not valid")
