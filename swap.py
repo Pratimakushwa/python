@@ -214,11 +214,105 @@
 #     print("not a triangle")
 
     # write a program to input  angle of triangle and check whether  triangle valid or not
-a = float (input("enter the  first side"))
-b = float (input("enter the  second side"))
-c = float (input("enter the  third side"))
-if  a+b>c and b+c>a and a+c>b:
+# a = float (input("enter the  first side"))
+# b = float (input("enter the  second side"))
+# c = float (input("enter the  third side"))
+# if  a+b>c and b+c>a and a+c>b:
 
-    print ("triangle is valid")
+#     print ("triangle is valid")
+# else:
+#     print("not a triangle is not valid")
+
+# write a program to check  whether the triangle is equilateral isosceles triangle
+# a = float(input("enter the fisrt side"))
+# b = float(input("enter the second  side"))
+# c = float(input("enter the third side"))
+# if a== b == c:
+#     print("equilateral triangle")
+# elif  a==b or b==c or a==c:
+#     print("Isoseceles triangle")
+# else:
+#     print("scalene triangle")
+
+# # write a program to calculate profit or loss
+# cp= float(input("enter the cost price"))
+# sp= float(input("enter the selling price"))
+# if sp>cp:
+#     profit= sp-cp
+#     print("profit")
+# elif cp>sp:
+#     loss= cp-sp
+#     print("loss")
+# else:
+#     print("no profit no loss")
+
+# # write a program to input marks of five subject physics chemistry biology math and computer calculate persentage and grade
+# #  percentage>=90%:grade A
+# #  percentage>=80%:grade B
+# #  percentage>=70%:grade C
+# #  percentage>=60%:grade D
+# #  percentage>=40%:grade E
+# #  percentage<=40%:grade F
+
+# p= float(input("enter physics marks"))
+# c= float(input("enter chemistry marks"))
+# b= float(input("enter biology marks"))
+# m= float(input("enter math marks"))
+# co= float(input("enter computer marks"))
+
+# total = p+c+b+m+co
+# percent = total/5
+# print("percentage=34",percent)
+# if percent>=90:
+#     print("grade A")
+# elif percent>=80 :
+#     print("grade B")
+# elif percent >=70:
+#     print("grade C")
+# elif percent >= 60:
+#     print("grade D")
+# elif percent >= 40:
+#     print("grade E")
+# else:
+#     print("grade F")
+
+# write a program to input basic salary of an employ and calculate its gross salary
+
+# basic salary <=10000:hra= 20% ,da = 80%
+# basic salary <=20000:hra= 25% ,da = 90%
+# basic salary >20000:hra= 30% ,da = 95%
+
+# basic = float(input("enter your  basic salary"))
+# if basic<=10000:
+#     hra = 20/100 * basic
+#     da= 0.80 * basic
+# elif basic <= 20000:
+#     hra= 0.25*basic
+#     da = 0.90*basic
+# else:
+#     hra = 0.30*basic
+#     da = 0.95* basic
+# gross = basic +hra+da
+# print(gross)
+
+# write a program to inpute electricity unit charge and calculate toatal electricity bill according to the given condition
+#  for first 50 units Rs. 0.50/unit
+#  for next 100 units Rs. 0.75/unit
+#  for next 100 units Rs.  1.20/unit
+#  for unit above 250 Rs. 1.50/unit
+# An additional surchange of 20% is added to the bill
+units= float(input("enter the electricity bill"))
+if units<=50:
+    amount= units*0.50
+elif units<150:
+    amount= (50*0.50) +((units - 50)*0.75)
+elif units<=250:
+    amount=(50*0.50)+(100*0.75) + ((units -150) * 1.20)
 else:
-    print("not a triangle is not valid")
+    amount = (50 * 0.50) + (100 * 0.75) +(100 * 1.20) +((units -250)*1.50)
+surcharge= amount * 0.20
+total = amount + surcharge
+print("electricity bill:" ,amount)
+print ("surcharge")
+print(" total  electricity  bill :", total)
+

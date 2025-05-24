@@ -84,3 +84,60 @@
 #   print("palindrom")
 #  else:
 #   print("not a palindrom")
+
+
+#non-return without argument
+
+# def factorial():
+#     a=int(input("Enter a Number: "))
+#     ans=1
+#     for i in range(1,a+1):
+#         ans*=i
+#     print(ans)
+
+
+# factorial()
+
+# WAP to print a sum of n natural number
+# WAP to print fibonacci series 01123
+
+# def fibnacci():
+#     n= int (input("enter the number"))
+#     first=0 
+#     second=1
+#     for i in range(n):
+#         if i==0:
+#             print(first)
+#             continue
+#         if i==1:
+#             print(second)
+#             continue
+#         next= first+second
+#         first= second
+#         second= next
+#     print(next)
+# fibnacci()
+# fibnacci()
+    
+    
+# def natural():
+#  n= int (input ("enter the number"))
+#  for i in range(1,n):
+#     print(i)
+# natural()
+
+
+#Prime Number
+#perfect Number
+#pallindrom
+
+#return type without argument
+def isprime():
+    num = int(input("ENter a Number: "))
+    if num>1 and all(num%i!=0 for i in range(2,num)):
+        return "Prime"
+    else:
+        return "Not a Prime"
+    
+ans=isprime()
+print(ans)
