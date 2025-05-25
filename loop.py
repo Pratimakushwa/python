@@ -18,7 +18,7 @@
 #     sum=sum+i
 #     print("total sum :", sum)
     
-# num= int(input("enter the numebr"))
+# num= int(input("enter the numeber"))
 # sum=0
 # while num>0:
 #     digit= num % 10
@@ -132,12 +132,83 @@
 #pallindrom
 
 #return type without argument
-def isprime():
-    num = int(input("ENter a Number: "))
-    if num>1 and all(num%i!=0 for i in range(2,num)):
-        return "Prime"
-    else:
-        return "Not a Prime"
+# def isprime():
+#     num = int(input("ENter a Number: "))
+#     if num>1 and all(num%i!=0 for i in range(2,num)):
+#         return "Prime"
+#     else:
+#         return "Not a Prime"
     
-ans=isprime()
-print(ans)
+# ans=isprime()
+# print(ans)
+
+# def perfect():
+#     num= int(input("enter the number"))
+#     ans=0
+#     for i in range(1,num):
+#         if num%i==0:
+#              ans+=i
+#     if ans==num:
+#           return "perfect"
+#     else:
+#           return "not perfect"
+# a= perfect()
+# print(a)
+
+# def fact():
+#     num=int(input("enter the number"))
+#     fact=1
+#     for i in range(1,num+1):
+#         fact*=i
+#     return fact
+# a=fact()
+# print(a)
+
+# def palindrom():
+#     num=int(input("enter the number"))
+#     rev=0
+#     temp=num
+#     while num>0:
+#      digit= num%10
+#      rev= rev*10+digit
+#      num= num//10
+#     if temp== rev:
+#         return "palindrom"
+#     else:
+#         return " not a palindron"
+    
+# a = palindrom()
+# print(a)
+
+
+# def max():
+#     num= int(input("enter the number"))
+#     max=0
+#     while num>0:
+#         digit=num%10
+
+#         if max<digit:
+            
+#             max=digit
+#         num=num//10
+#     return max
+       
+# a = max()
+# print(a)
+
+def prime():
+    num=int(input("enter the number"))
+    count =0
+    for i in range(1,num):
+        if num%i==0:
+            count=+1
+    if count==2:
+        return("prime")
+    else:
+        return("not a prime")
+a = prime()
+print(a)
+
+
+
+        
