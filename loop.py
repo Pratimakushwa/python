@@ -152,7 +152,7 @@
 #           return "perfect"
 #     else:
 #           return "not perfect"
-# a= perfect()
+# # a= perfect()
 # print(a)
 
 # def fact():
