@@ -59,6 +59,19 @@ for i in range(1, rows+1):
 #             print(" ",end=" ")
 #     print()
 
+# row = int(input("Enter Number of rows: "))
+# a=65
+# alpha=chr(a)
+# for r in range(1,row+1):
+#     for c in range(1,row+1):
+#         if c<=r:
+#             print(alpha,end=" ")
+#             a=a+1
+#             alpha=chr(a)
+#         else:
+#             print(" ",end=" ")
+#     print()
+
 
 
 
