@@ -17,5 +17,14 @@ for i in range(1,num):
     if num%i==0:
         print("square")
     else:
-        print("not divisiable")
+        print("not divisiable")  
+
+
+
+        num = int (input("enter the number"))
+for i in range(1,num):
+    if num%i==0:
+        print("square")
+    else:
+        print("not divisiable")  
 
