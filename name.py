@@ -28,3 +28,12 @@ for i in range(1,num):
     else:
         print("not divisiable")  
 
+rows=5 
+for i in range(1, rows+1):
+    for j in range( 1, rows+1):
+        if(i>=6-j):
+           print(j, end="")
+        else:
+         print(end=" ")
+    print()
+       
