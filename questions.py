@@ -58,3 +58,19 @@
 
 
 
+# li=[1,4,3,5,7,8]
+# for i in range(len(li)):
+#     for j in range(i+1, len(li)):
+#         if li[i]>li[j]:
+#             li[i],li[j]=li[j],li[i]
+# print(li)
+    
+li=[1,2,3,4,5,6,7]
+for i in  range(len(li)):
+    for j in range(i+1,len(li)):
+        if li[i]+li[j]==10:
+            print( li[i]+li[j])
+
+            
+        
+           

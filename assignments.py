@@ -69,30 +69,50 @@
 # print(sum)
 
 # 9 print all prime number within a range
-
-# start= int(input("enter the start number"))
-# end=int(input("enter the end number"))
-# n=int(input("enter the number"))
-# if n<=1:
-#     print("not a prime number")
-
-# for i in range( start,end+1):
-#     if n%i==0:
-#         print("not prime")
-#         break
-# else:
-#     print("prime")
-        
-n= int(input("enter the number"))
-print ("prime number from 1 to n")
-for num in range(2, n+1):
-    for i in range(2,num):
-        if num%i==0:
-            break
-    else:
-        print(num)
+# n= int(input("enter the number"))
+# print ("prime number from 1 to n")
+# for num in range(2, n+1):
+#     for i in range(2,num):
+#         if num%i==0:
+#             break
+#     else:
+#         print(num)
         
             
+# 10 write a program to find lcm of two number
+# a= int(input("enter the number"))
+# b= int(input("enter the number"))
+# maxnum=max(a,b)
+# while(True):
+#    if maxnum%a==0 and maxnum%b==0:
+#        break
+#    maxnum=maxnum+1
+# print(maxnum)
+
+# 11 write a program to find hcf of two number
+# a= int(input("enter the number"))
+# b= int(input("enter the number"))
+# if a<b:
+#     min=a
+# else:
+#     min=b
+# for i in range (1,min+1):
+#     if a%i==0 and b%i==0:
+#         hcf=i
+# print(hcf)
+
+#  12 write a program to print power of a number using loop
+
+a= int (input("enter the base of a number"))
+b=int(input("enter the  exponential number"))
+result=1
+for i in range(b):
+    result=result*a
+print(result)
+
+   
+
+
 
 
    
