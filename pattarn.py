@@ -1,12 +1,12 @@
 
-for i in range(1, 6):
-    for j in range( 1,6):
-        if(i>=j):
-           print(j, end="")
+# for i in range(1, 6):
+#     for j in range( 1,6):
+#         if(i>=j):
+#            print(j, end="")
 
          
-        print(end=" ")
-    print()
+#         print(end=" ")
+#     print()
 
 # for i in range(1, 6):
 #     for j in range( 1,6):
@@ -103,6 +103,18 @@ for i in range(1, 6):
 
 
 
+# li=[1,2,4,5,7,2]
+# ans=li[:]
+# for i in range(len(li)):
+#     for j in range( i+1,len(li)):
+#         if li[i]>li[j]:
+#             li[i], li[j]=li[j],li[i]
+           
+# if li==ans:
+#     print("yes")
+# else:
+#     print("no")      
+        
 
 
 
