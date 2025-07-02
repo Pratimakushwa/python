@@ -178,5 +178,123 @@
 # print(li)
 
 
+# num=int(input("entr the number"))
+# for i in range(1,num+1):
+#     print(i)
 
+# num=20
+# for i in range(1,num+1):
+#     if i%2==0:
+#       print(i)
+
+
+# i = 2
+# while i<=20:
+   
+#       print(i)
+#       i=i+2
+
+# num=100
+# sum=0
+# for i in range(1,num+1):
+    
+#         sum=sum+i
+# print(sum)
+
+# num= int(input("enter the number"))
+# for i in range(1,11):
+#     print(num*i)
+
+# i=10
+# while i>=1:
+#     print(i)
+#     i=i-1
+# s= input("enter the string")
+# for i in s:
+#     print(i)
+# li=[10,20,30,40]
+# for i in li:
+#     print(i)
+
+# li=[2,3,5,7,6,7,9,7,9,5,4,3]
+# even_count=0
+# odd_count=0
+# for i in range(len(li)):
+#     if li[i]%2==0:
+#         even_count= even_count+1
+#     else:
+#         odd_count=odd_count+1
+# print( "even",even_count)
+# print("odd",odd_count)
+
+# s="education is powerfull"
+# vowel="aeiouAEIOU"
+# count=0
+# for i in range(len(s)):
+#     if s[i] in vowel:
+#         count =count+1
+# print("vowel",count,)
         
+# li=[1,2,3,4,5,6,7,2,2,1,3,1,4,5]
+# data=[]
+# for i in range(len(li)):
+#     count=0
+#     if li[i] not in data:
+#         for j in range(len(li)):
+#             if li[i]==li[j]:
+#                 count=count+1
+#                 if count > 1:
+#                  print (li[i], " -> ", count,"times") 
+#                  data.append(li[i])
+                
+                
+           
+        
+# li=[2,4,3,6,8]
+# data=[]
+# for i in range(len(li)):
+#     if i  not  in data:
+#         data.append(li[i]*li[i])
+# print(data)
+
+# a= int (input("enter the number"))
+# b= int(input("enterthe numebr"))
+# maxNum= max(a,b)
+# while(True):
+#     if maxNum%a==0 and maxNum%b==0:
+#         break
+#     maxNum=maxNum+1
+# print(maxNum)
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

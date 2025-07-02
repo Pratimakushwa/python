@@ -41,6 +41,7 @@
 # print(ans)
 
 # print(max(data))
+
  
 
 # data={
@@ -139,9 +140,6 @@
 
 
 
-
-
-
 # for i in range(len(s)):
 #     count=1
 #     for j in range(i+1,len(s)):
@@ -165,31 +163,55 @@
 #        digit[i]=1
 # print( digit)
 
-s1=" man",
-s2="madam",
-if len(s1) != len(s2):
-    print(" not,anagram")
-else:
-     ans={}
-     for i in s1:
+# s1=" man",
+# s2="madam",
+# if len(s1) != len(s2):
+#     print(" not,anagram")
+# else:
+#      ans={}
+#      for i in s1:
       
         
-          ans[i]=ans.get(i,0)+1
+#           ans[i]=ans.get(i,0)+1
     
 
-     for j in ans:
-       if j in ans:
-           ans[i]-=1
-     freq= True
-     for i in ans.value():
-         if i!=0:
-             freq=False
+#      for j in ans:
+#        if j in ans:
+#            ans[i]-=1
+#      freq= True
+#      for i in ans.value():
+#          if i!=0:
+#              freq=False
       
        
     
+# num= int(input("enter the number"))
+# temp = num
+# sum=0
+# while temp>0:
+#     digit=temp%10
+#     sum=sum+digit
+#     temp=temp//10
 
-    
-    
-        
+# if num%sum==0:
+#     print("harshat number")
+# else:
+#     print("print not a hrshat number")
 
+
+num=int(input("enter the number"))
+temp=num
+sum=0
+product=1
+while temp>0:
+    digit=temp%10
+    sum=sum+digit
+    product=product*digit
+    temp = temp//10
+if sum==product:
+    print("spy number")
+
+else:
+    print("not a spy number")
     
+
