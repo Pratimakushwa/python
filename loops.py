@@ -12,13 +12,13 @@
 #         count=count+1
 # print(count)
 
-# li=[1,2,3,4,1,1]
-# k=1
+li=[1,2,3,4,1,1]
+k=1
 
-# for  i in range(len(li)):
-#     if i==k:
-#      print(i)
-#      break
+for  i in range(len(li)):
+    if i==k:
+     print(i)
+     break
 
 # a= int(input("enter the number a"))
 # b= int (input("enter the numbet b"))

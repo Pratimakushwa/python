@@ -59,7 +59,7 @@
 # if  (any>'a'and any<'z') or (any>'A' and any<'Z'):
 #     print("alphabet")
 # else:
-#     print("not  alphabet") 
+#     print("not  alphabet")  
 
 # 8# write a program to input any alphabet  and check the whether it is vowel or consonant
 
@@ -265,4 +265,56 @@
 # print("electricity bill:" ,amount)
 # print ("surcharge")
 # print(" total  electricity  bill :", total)
+
+# a=input("enter the character")
+# if a>='A'and a<='Z':
+#     print("uppercase")
+# elif a>='a' and a<='z':
+#     print("lowercase")
+# else:
+#     print("invailed")
+
+# a=int(input("enter the number 1 "))
+# b=int(input("enter the number 2 "))
+# c=int(input("enter the number 3 "))
+# if a>0 and  b>0 and  c>0 and a+b+c ==180:
+#     print("triangle")
+# else:
+#     print("not a valid triangle")
+
+
+# number=7
+# guess=int(input("enter the number  1 to 10 "))
+# if number==guess:
+#     print("right")
+# else:
+#     print("wrong")
+
+balance=1000
+password=1234
+pin=int(input("enter your your password"))
+if pin==password:
+    print("your password is correct")
+    print("1 check your balance")
+    print("2 check your withdrow amount")
+    print("3 check your deposite amount")
+    choice=int(input("enter your choice"))
+    if choice==1:
+        print("your balance is a", balance)
+    elif choice==2:
+        amount=int(input("enter your amount"))
+        if balance<amount:
+            print(" incsucient balance")
+        elif balance>amount:
+            print("succeful withdrow")
+        
+    elif choice==3:
+        amount=int(input("enter your amount"))
+        balance+=amount
+        print("after deposit your current  balance  is ",balance)
+else:
+    print("invailed")
+ 
+
+
 

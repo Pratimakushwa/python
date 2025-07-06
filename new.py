@@ -49,6 +49,7 @@
 #     "raj": 60,
 #     "ram": 80
 # }
+
 # lowest=80
 # for i in data:
 #     if data[i]<lowest:
@@ -66,7 +67,6 @@
 # print(data)
 
 
-
 # data={
 #     "jatin":90,
 #     "ram": 50,
@@ -78,6 +78,7 @@
 #         max=data[i]
 #         ans=i
 # print(ans)
+
 
 # data={
 #     "jatin":90,
@@ -105,6 +106,7 @@
 #         else:
 #             vowel[i]=1
 # print(vowel)
+
 
 # text=" Hello Worlddd This Is Python"
 # upper=0
@@ -199,19 +201,50 @@
 #     print("print not a hrshat number")
 
 
-num=int(input("enter the number"))
-temp=num
+# num=int(input("enter the number"))
+# temp=num
+# sum=0
+# product=1
+# while temp>0:
+#     digit=temp%10
+#     sum=sum+digit
+#     product=product*digit
+#     temp = temp//10
+# if sum==product:
+#     print("spy number")
+
+# else:
+#     print("not a spy number")
+    
+
+# n=int(input("enter three numner"))
+# temp=n
+# sum=0
+# product=1
+# while temp>0:
+#     digit=n=temp%10
+#     sum=sum+digit
+#     product=product*digit
+#     temp=temp//10
+# if sum==product:
+#     print("spy number")
+# else:
+#     print("not spy number")
+
+
+n=int(input("enter the number"))
+temp=n
 sum=0
-product=1
 while temp>0:
     digit=temp%10
     sum=sum+digit
-    product=product*digit
-    temp = temp//10
-if sum==product:
-    print("spy number")
+    temp=temp//10
 
+if n%sum==0:
+    print("hrshad number")
 else:
-    print("not a spy number")
-    
+    print("not hrshad")
+
+
+
 

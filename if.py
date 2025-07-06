@@ -100,14 +100,49 @@
      
 
 
-num=int(input("enter the number"))
-temp=num
-sum=0
-while temp>0:
-    digit=temp%10
-    sum=sum+digit*digit*digit
-    temp=temp//10
-if num==sum:
-    print("armstrong number ")
-else:
-    print("not a armstrong number")
+# num=int(input("enter the number"))
+# temp=num
+# sum=0
+# while temp>0:
+#     digit=temp%10
+#     sum=sum+digit*digit*digit
+#     temp=temp//10
+# if num==sum:
+#     print("armstrong number ")
+# else:
+#     print("not a armstrong number")
+
+
+# income=int(input("enter your income"))
+# tax=0
+# if income<=250000:
+#     tax=0
+# elif income<=500000:
+#     tax=(250000*5/100)
+# elif income<=1000000:
+#     tax=(250000*5/100)+(income-500000)*20/100
+# else:
+#     tax=(250000*5/100)+(500000*20/100)+(income-1000000)*30/100
+# print("total tax", tax)
+
+# for i in range(5):
+#     for j in range(i+1):
+#         print(j+1,end=" ")
+#     print()
+
+# for i in range(5,0,-1):
+#     for j in range(i,0,-1):
+#         print(i,end=" ")
+#     print()
+
+# n=5
+# i=1 
+# while i<=n:
+#     print(' '*(n-i) +'*' * i)
+#     i=i+1
+
+n=5
+i=1
+while i<=n:
+    print(' '*i + '*' * (n-i))
+    i=i+1
