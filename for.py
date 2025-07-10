@@ -80,12 +80,25 @@
 # print(maxNum)
        
 
-base= int(input("enter the number"))
-b=int(input("enter the number"))
-result=1
-for i in range(b):
-    result=result*base
-print(result)
+# base= int(input("enter the number"))
+# b=int(input("enter the number"))
+# result=1
+# for i in range(b):
+#     result=result*base
+# print(result)
+
+num=int(input("enter the number"))
+temp=num
+sum=0
+while temp>0:
+    digit=temp%10
+    sum=sum+digit*digit*digit
+    temp=temp//10
+if sum==num:
+    print("armtrong")
+else:
+    print("not a armstrong")
+
 
 
 

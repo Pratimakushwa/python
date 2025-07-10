@@ -154,3 +154,28 @@
 #             print("*",end="")
 #         print(end="")
 #     print()
+
+# start= int (input("enter the number"))
+# end=int(input("enter the number"))
+# for num in range(start,end+1):
+#     temp=num
+#     sum=0
+#     while num>0:
+#         digit=num%10
+#         sum=sum+digit*digit*digit
+#         num=num//10
+#     if temp==sum:
+#         print(temp)
+
+
+start=int(input("enter the number"))
+end=int(input("enter the numebr"))
+even_sum=0
+odd_sum=0
+for i in range(start,end+1):
+    if i%2==0:
+        even_sum+=i
+    else:
+        odd_sum+=i
+print("even_sum is a ", even_sum)
+print("odd_sum is a ", odd_sum)
