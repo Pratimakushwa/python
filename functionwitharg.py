@@ -83,6 +83,10 @@ num=int(input("enter a number"))
 fact(num)
 
 
+
+
+
+
 # type of argument
 # 1 position argument
 # 2 keyword argument
