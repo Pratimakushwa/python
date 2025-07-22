@@ -196,18 +196,18 @@
 # a = max()
 # print(a)
 
-def prime():
-    num=int(input("enter the number"))
-    count =0
-    for i in range(1,num):
-        if num%i==0:
-            count=+1
-    if count==2:
-        return("prime")
-    else:
-        return("not a prime")
-a = prime()
-print(a)
+# def prime():
+#     num=int(input("enter the number"))
+#     count =0
+#     for i in range(1,num):
+#         if num%i==0:
+#             count=+1
+#     if count==2:
+#         return("prime")
+#     else:
+#         return("not a prime")
+# a = prime()
+# print(a)
 
 
 

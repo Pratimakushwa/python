@@ -145,3 +145,178 @@
 # n=int(input("enter the number"))
 # print(arm(n))
 
+
+
+# def add(a,b):
+#     z=a+b
+#     print(z)
+# print(add(4,5))
+
+# def add(a,b):
+#     z=a+b
+#     return z
+# p=add(4,5)
+# print(p)
+
+# def add(a,b):
+#     z=a+b
+#     return z
+# p=int (input("enter the first number"))
+# q=int(input("enter the second number"))
+# print(add(p,q, 10))
+
+# def add(a,b):
+#     z=a+b
+#     return z
+# p=int (input("enter the first number"))
+# q=int(input("enter the second number"))
+# print(add())
+
+# def add(a,b):
+#     z=a+b
+#     return z
+# p=int (input("enter the first number"))
+# q=int(input("enter the second number"))
+# print(add())
+
+
+# //default argument
+# def add(a=0,b=0):
+#     z=a+b
+#     return z
+# # p=int (input("enter the first number"))
+# # q=int(input("enter the second number"))
+# print(add())
+
+
+# def add(a,b):
+#     z=a+b
+#     return z
+# p=int (input("enter the first number"))
+# q=int(input("enter the second number"))
+# print(add())
+
+
+# def add(*args):
+#     print(args)
+#     print(type(args))
+# add(2,4)
+# add(2,3,4,56,3)
+
+# def add(*n):
+#     sum=0
+#     for i in n:
+#         sum=sum+i
+#     return sum
+# # print(add(1,2,3,4,5,6))
+# print(add())
+
+
+# t=(1,2,3,4,5,6,7)
+
+
+# x= eval(input("enter the value"))
+# print(type(x))
+
+# x= eval('4+5-2')
+# print(x)
+
+
+# x=eval(input( "enter the value x"))
+# y=eval(input( "enter the value"))
+
+# z=3*x+4*y
+# print(z)
+
+# def new(x,y,z):
+#     print(x,y,z)
+#     return x+y+z
+# print(new(z=5,y=4,x=3))
+
+
+# def mydict(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+# mydict(x=10,y=20,z=30,p=40,q=30)
+
+
+# mytr={'x':19,'y':20,'u':2}
+# sum=0
+# for i in mytr.values():
+#     sum=sum+i
+# print(sum)
+
+# def mydict(**kwargs):
+#    sum=0
+#    for i in kwargs.values():
+#    sum=sum+i
+#    return sum
+# print(mydict(x=10,y=20,z=30,p=40,q=30))
+
+
+
+# def prime(n):
+#     is_prime=True
+#     for i in range(2,n):
+#         if n%i==0:
+#             is_prime= False
+#             break
+#     return is_prime
+
+# n=int(input("enter the number"))
+# is_prime=prime(n)
+# if is_prime:
+#   print("prime number")
+# else:
+#     print("not a prime number")
+    
+# def year(y):
+#     if (y%4 ==0 or y%400==0):
+#         print("leap year")
+#     else:
+#         print("not a leap year")
+
+
+# y=int(input("enter the number"))
+# year(y)
+
+# def even(n):
+#     if n%2==0:
+#         print("even")
+
+#     else:
+#         print("odd")
+# n=int(input("enter the number"))
+# even(n)
+
+# def digit(n):
+#     sum=0
+#     while n>0:
+#         digit=n%10
+#         sum=digit+sum
+#         n=n//10
+#     print(sum)
+# n=int(input("enter the number"))
+# digit(n)
+
+# def digit(n):
+#     temp=n
+#     sum=0
+#     while temp>0:
+#         digit=temp%10
+#         sum=sum+digit*digit*digit
+#         temp=temp//10
+#     if n==sum:
+#       print("armstrog")
+#     else:
+#        print("not a armstrong")
+# n=int(input("enter the number"))
+# digit(n)
+
+
+def  max(x,d,e):
+    
+
+
+max(1,2,3)
+
