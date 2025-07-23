@@ -255,7 +255,7 @@
 
 
 
-# def prime(n):
+# def is_prime(n):
 #     is_prime=True
 #     for i in range(2,n):
 #         if n%i==0:
@@ -264,7 +264,7 @@
 #     return is_prime
 
 # n=int(input("enter the number"))
-# is_prime=prime(n)
+# is_prime(n)
 # if is_prime:
 #   print("prime number")
 # else:
@@ -314,9 +314,57 @@
 # digit(n)
 
 
-def  max(x,d,e):
+# def fact(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#         return fact
     
 
+# n=int(input("enter the number"))
+# print(fact(n))
 
-max(1,2,3)
 
+
+
+
+
+# def is_prime(n):
+#     is_prime=True
+#     for i in range(2,n):
+#         if n%i==0:
+#             is_prime= False
+#             break
+#     if is_prime:
+#       print("prime number")
+#     else:
+#        print("not a prime number")
+
+# n=int(input("enter the number"))
+# is_prime(n)
+
+
+# l1=[1,2,3,4,56,7]
+# l2=[1,2,3,4,56,7]
+# l3=[1,2,3,4,56,7]
+# def add(x,y,z):
+#     return x+y+z
+# result=map(add,l1,l2,l3)
+# print(result)
+# print(list(result))
+
+
+# l4=[1,3,5,7,3,]
+# def squre(x):
+#     return x**2
+# result=map(squre,l4)
+# print(result)
+# print(list (result))
+
+l5=[2,3,4,5,6,7,8,9]
+def even(x):
+    if x%2==0:
+        return even
+result=filter(even,l5)
+print(result)
+print(list(result))
