@@ -361,10 +361,110 @@
 # print(result)
 # print(list (result))
 
-l5=[2,3,4,5,6,7,8,9]
-def even(x):
-    if x%2==0:
-        return even
-result=filter(even,l5)
-print(result)
-print(list(result))
+
+
+
+# l5=[2,3,4,5,6,7,8,9]
+# def even(x):
+#     if x%2==0:
+#         return x
+# result=filter(even,l5)
+# print(result)
+# print(list(result))
+
+
+# l5=[2,3,4,5,6,7,8,9]
+# def even(x):
+#     if x%2==0:
+#         return 'even'
+#     else:
+#         return 'odd'
+# result=map(even,l5)
+# print(result)
+# print(list(result))
+
+
+
+# l4=[1,3,5,7,3,]
+# def squre(x):
+#     return x**2
+# result=map(squre,l4)
+# print(result)
+# print(list (result))
+
+
+# import functools
+# l=[1,2,3,4,45,6,7,89,]
+# def max_digit(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
+# result=functools.reduce(max_digit,l,0)
+# print(result)
+
+
+
+# import functools
+# l=[1,2,3,4,45,6,7,89,]
+# def max_digit(x,y):
+#     if x<y:
+#         return x
+#     else:
+#         return y
+# result=functools.reduce(max_digit,l)
+# print(result)
+
+
+# import functools
+# l=[1,2,3,4,45,6,7,89,]
+# def max_digit(x,y):
+#     return
+# result=functools.reduce(max_digit,l)
+# print(result)
+
+
+# x=lambda x,y: x+y
+# x=(4,5)
+
+
+# x=lambda x,y: print(x+y)
+# x=(4,5)
+
+
+# x=lambda x,y: x+y
+# print=(x(4,5))
+
+# x=lambda x,y: print(x+y)
+# print(x(4,5))
+
+
+# l=[1,2,34,5,6,7,8]
+# result= filter(lambda x: x if x%2== 0 else None,l)
+# print(list(result))
+
+# l=[1,2,34,5,6,7,8]
+# result= map(lambda x: 'even' if x%2== 0 else 'odd',l)
+# print(tuple(result))
+
+
+# from  functools import reduce
+
+# l=[1,2,34,5,6,7,8]
+# result=reduce(lambda x,y: x+y,l)
+# print(result)
+
+# from  functools import reduce
+
+# l=[1,2,34,5,6,7,8]
+# result=reduce(lambda x,y: x if x>y else y,l)
+# print(result)
+
+from first1 import decor
+@decor
+def add(x,y):
+    z=x+y
+    return z
+result=add(5,5)
+print (result)
+        
