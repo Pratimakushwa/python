@@ -7,3 +7,11 @@ def max_digit(x,y):
         return y
 result=reduce(max_digit,l,0)
 print(result)
+
+from first1 import decor
+@decor
+def add(x,y):
+    z=x+y
+    return z
+result=add(5,5)
+print (result)
