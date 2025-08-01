@@ -407,12 +407,12 @@
 
 # import functools
 # l=[1,2,3,4,45,6,7,89,]
-# def max_digit(x,y):
+# def min_digit(x,y):
 #     if x<y:
 #         return x
 #     else:
 #         return y
-# result=functools.reduce(max_digit,l)
+# result=functools.reduce(min_digit,l)
 # print(result)
 
 
@@ -460,11 +460,48 @@
 # result=reduce(lambda x,y: x if x>y else y,l)
 # print(result)
 
-from first1 import decor
-@decor
-def add(x,y):
-    z=x+y
-    return z
-result=add(5,5)
-print (result)
+# from first1 import decor
+# @decor
+# def add(x,y):
+#     z=x+y
+#     return z
+# result=add(5,5)
+# print (result)
         
+
+
+
+# l=[1,2,3,4,5,6]
+
+# result=filter(lambda x: x if x%2==0 else None ,l)
+# print(list(result))
+
+
+
+
+# def even(n):
+#     if n%2==0:
+#         return n
+# result=filter(even,l)
+# print(list(result))
+
+
+
+# file handling
+
+
+# f= open('n1.py', 'a+')
+# print(f.name)
+# print(f.mode)
+# print(f.readable())
+# print(f.writable())
+# print(f.closed)
+# print(f.encoding)
+
+
+# f=open('g1.txt','a+')
+# f.writelines(['this\n','is\n','python\n'])
+
+
+f=open('y1.py','w')
+f.writelines("file handling")
