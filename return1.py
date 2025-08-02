@@ -500,8 +500,102 @@
 
 
 # f=open('g1.txt','a+')
-# f.writelines(['this\n','is\n','python\n'])
+# f.write("Complete Python Bootcamp From Zero to Hero in Python
+# Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games
+# Created by , 
+# Last updated 7/2025
+# English
+# English [Auto], Arabic [Auto]
+# , 
+# Premium")
+# f.close()
 
 
-f=open('y1.py','w')
-f.writelines("file handling")
+
+# read methods
+# f=open('g1.txt','r')
+# data=f.read(10)
+# print(data)
+# f.close()
+
+# f=open('g1.txt','r')
+# data=f.readline()
+# print(data)
+# f.close()
+
+# f=open('g1.txt','r')
+# data=f.readlines()
+# print(data)
+# f.close()
+
+# f=open('g1.txt','r')
+# print(f.tell())
+# f.close()
+
+# f=open('g1.txt','a')
+# print(f.tell())
+# f.close()
+
+
+# f=open('g1.txt','r')
+# print(f.tell())
+# data=f.read()
+# print(data)
+
+# f.close()
+
+# f=open('g1.txt','a')
+# print(f.tell())
+# data=f.read()
+# print(data)
+
+# f.close()
+
+
+# f=open('g1.txt','w')
+# data=f.read()
+# print(data)
+
+
+
+
+
+
+# f=open('y1.py','w')
+# f.writelines("file handling")
+
+
+# f=open('g1.txt','a+')
+# f.write("Complete Python Bootcamp From Zero to Hero in Python")
+
+# f.close()
+
+
+# f=open('g1.txt','r')
+# print(f.tell())
+# data=f.read(5)
+# print(data)
+# print(f.tell())
+# data=f.read(10)
+# print(f.tell())
+# data=f.read(15)
+            
+
+f=open('g1.txt','rb')
+print(f.tell())
+f.seek(5)
+print(f.tell())
+f.seek(-5,1)
+print(f.tell())
+
+
+# f=open('g1.txt','r')
+# print(f.tell())
+# data=f.read(5)
+# print(data)
+
+
+# f=open('g1.txt','rb')
+# f.read(10)
+# f.seek(-5,1)
+# print(f.tell())

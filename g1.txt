@@ -1,7 +1,1 @@
-ths is from file handlingths is from file handling
-        this is form python fileths is 
-        from
-        python
-        classthisispython this
-is
-python
+Complete Python Bootcamp From Zero to Hero in Python
