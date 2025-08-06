@@ -120,3 +120,134 @@
 # print(mx)
 
 
+# def square(n):
+#     return n*n
+
+
+# n=int(input("enter the number"))
+# result=square(n)
+# print(result)
+
+
+# def evenodd(x):
+#     if n%2==0:
+#         return "even"
+#     else:
+#         return "odd"
+
+
+# n=int(input("enter the number"))
+# result=evenodd(n)
+# print(result)
+
+# def max(x,y,z):
+#     if a>b and a>c:
+#         return a 
+#     elif b>a and b>c:
+#         return b
+#     else:
+#         return c
+    
+# a=int(input("enter the  first number"))
+# b=int(input("enter the second   number"))
+# c=int(input("enter the third number"))
+# result=max(a,b,c)
+# print(result)
+
+
+
+# def fact(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#     return fact
+
+
+
+# n=int(input("enter the number"))
+# print(fact(n))
+
+
+
+# def squaare(n):
+#     for i in range(1,n+1):
+#         if n%i==0:
+#           print (i)
+
+
+# n=int(input("enter the number"))
+# squaare(n)
+
+# def square (n):
+#     result=[]
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             result.append(i)
+#     return result
+# n=int(input("enter the number"))
+# print(square(n))
+
+# def squaare(n):
+#     for i in range(2, n + 1):   # Start from 2, not 1
+#         if n % i == 0:
+#             return i            # Return the first factor > 1
+
+# n = int(input("Enter the number: "))
+# print(squaare(n))
+
+# def add(*n):
+#     sum=0
+#     for i in n:
+#         sum = sum+i
+#     return sum
+
+
+# print(add(1,2,3,4,5,6))
+
+
+# def reverse(s):
+    
+#     return s[: : -1]
+# n="string"
+# print(reverse(n))
+
+
+# def reverse(s):
+#     count=0
+#     for i in s:
+#         if i in "aeiou":
+#             count=count+1
+#     return count
+# n="hellow"
+# print(reverse(n))
+
+
+# def count_vowels(s):
+#     count = 0
+#     for i in s:
+#         if i in "aeiouAEIOU":
+#             count += 1
+#     return count
+
+# n = "hellow"
+# print("Vowel count:", count_vowels(n))
+
+
+def is_prime(n):
+    is_prime=True
+    for i in range(2,n):
+      if n%i==0:
+        is_prime =False
+        break
+    return is_prime
+     
+n=int(input("enter the number"))
+print(is_prime(n))
+
+if is_prime:
+   print("prime")
+
+else:
+   print("not a prime")
+
+      

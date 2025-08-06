@@ -208,7 +208,7 @@
 #     for i in n:
 #         sum=sum+i
 #     return sum
-# # print(add(1,2,3,4,5,6))
+# # print(add(1,2,3,4,5,6)) 
 # print(add())
 
 
@@ -599,3 +599,4 @@ print(f.tell())
 # f.read(10)
 # f.seek(-5,1)
 # print(f.tell())
+
