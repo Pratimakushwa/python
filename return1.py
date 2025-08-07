@@ -581,12 +581,12 @@
 # data=f.read(15)
             
 
-f=open('g1.txt','rb')
-print(f.tell())
-f.seek(5)
-print(f.tell())
-f.seek(-5,1)
-print(f.tell())
+# f=open('g1.txt','rb')
+# print(f.tell())
+# f.seek(5)
+# print(f.tell())
+# f.seek(-5,1)
+# print(f.tell())
 
 
 # f=open('g1.txt','r')
@@ -600,3 +600,33 @@ print(f.tell())
 # f.seek(-5,1)
 # print(f.tell())
 
+
+
+# n=int(input("enter the number"))
+# i,x=1,'A'
+# while i<=n:
+#     print(x)
+#     i=i+1
+#     x=chr(ord(x)+1)
+
+
+
+# s="python"
+# s1=''
+
+
+# for i in s:
+#     i=chr(ord(i)+1)
+#     s1=s1+i
+# print(s1)
+
+
+# s="python"
+# s1=''
+s1=''.join([s1,s[i]])
+# for i in range(5,-1,-1):
+
+#     s1=s1+s[i]
+# print(s1)
+
+    
