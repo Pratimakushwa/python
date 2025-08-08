@@ -60,3 +60,22 @@ obj1.studetail()
 #         kisi object ke initial value ko initailse krne ke liye constructor 
 # object dependent variable ko instance variable
 # obect ke sath value bhi change ho to use instanse variable kahte hai
+
+class student:
+    def __init__(self,name):
+        self.name=name
+    def studetail(self):
+        print(self.name)
+        print(self.age)
+
+obj=student
+print(id(student))
+print(id(obj))
+
+obj1=student('pratima')
+print(id(obj1))
+print(id(student))
+print(obj1.name)
+
+obj.age=20
+obj1.studetail()
