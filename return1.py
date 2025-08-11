@@ -610,6 +610,15 @@
 #     x=chr(ord(x)+1)
 
 
+# s="python"
+# s1=''
+# for i in s:
+#     i=chr(ord(i)+1)
+#     s1=s1+i
+
+# print(s1)
+
+
 
 # s="python"
 # s1=''
@@ -623,7 +632,7 @@
 
 # s="python"
 # s1=''
-s1=''.join([s1,s[i]])
+# s1=''.join([s1,s[i]])
 # for i in range(5,-1,-1):
 
 #     s1=s1+s[i]
