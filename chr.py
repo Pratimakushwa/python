@@ -47,3 +47,44 @@
 # n=int(input("enter the number"))
 # for i in range(1,11):
 #  print(n*i)
+
+# n= int (input ("enter the number"))
+# a=0
+# b=1
+# for i in range(n):
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
+
+# n=int(input("entre the number"))
+# count = 0
+# while n>0:
+#     n=n//10
+#     count=count+1
+# print(count)
+
+# n=int(input("enter the number"))
+# rev=0
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
+
+
+
+# a=int(input("enter the number"))
+# b=int(input("enter the  number"))
+# result=1
+
+# for i in range(b):
+#     result=result*a
+# print(result)
+    
+n=int(input("enter the number"))
+count=0
+while n>0:
+        n=n//10
+        count=count+1
+print(count)
