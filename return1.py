@@ -639,3 +639,59 @@
 # print(s1)
 
     
+# class student:
+#     def __init__(self,name, city,roll):
+#         self.n=name
+#         self.c=city
+#         self.r=roll
+#         print(self.n)
+#     def addnew(self,class1):
+#         self.g=class1
+#     def showdetail(self):
+#         print(self.n)
+#         print(self.c)
+#         print(self.r)
+#         print(self.g)
+#         print(self.pricipal)
+# obj=student('pratima','bhopal','101')
+# obj.pricipal='python'
+# obj.addnew('10th')
+# obj.showdetail()
+    
+
+# class student:
+#     principal='python'
+#     def __init__(self,name,city):
+#         self.n=name
+#         self.c=city
+#         student.gread='10th'
+#         print(student.principal)
+#     def addnew(self,school):
+#       student.s=school
+#       print(student.principal)
+#       print(student.gread)
+#       print(student.s)
+#       print(student.x)
+# student.x=100
+# obj=student('pratima','city')
+# obj.addnew('SSHSS')
+# print(student.principal)
+# print(student.gread)
+# print(student.s)
+# print(student.x)
+
+        
+class student:
+    def __init__(__self):
+        x=10
+        print(x)
+    def  show(self):
+        y=20
+        print(y)
+        # print(x)
+obj=student()
+obj.show()
+# print(obj.x)
+# print(obj.y)
+
+        
