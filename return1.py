@@ -630,13 +630,12 @@
 # print(s1)
 
 
-# s="python"
-# s1=''
-# s1=''.join([s1,s[i]])
-# for i in range(5,-1,-1):
+s="python"
+s1=''
+for i in range(5,-1,-1):
 
-#     s1=s1+s[i]
-# print(s1)
+    s1=s1+s[i]
+print(s1)
 
     
 # class student:
@@ -681,16 +680,16 @@
 # print(student.x)
 
         
-class student:
-    def __init__(__self):
-        x=10
-        print(x)
-    def  show(self):
-        y=20
-        print(y)
+# class student:
+#     def __init__(__self):
+#         x=10
+#         print(x)
+#     def  show(self):
+#         y=20
+#         print(y)
         # print(x)
-obj=student()
-obj.show()
+# obj=student()
+# obj.show()
 # print(obj.x)
 # print(obj.y)
 

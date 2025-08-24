@@ -114,6 +114,7 @@
 #     result=result*a
 # print(result)
 
+
 # 13 check if a number is palindrom using loop
 # num=int(input("enter the number"))
 # temp=num

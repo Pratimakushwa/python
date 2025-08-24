@@ -1,0 +1,87 @@
+# n=int(input("enter the number"))
+# factor=[]
+# for i in range(1,n+1):
+#     if n%i==0:
+#         factor.append(i)
+# print(factor)
+    
+
+
+# list=[2,4,6,4,7,2,98,7]
+
+# for i in range(len(list)):
+#     for j in  range(i+1,len(list)):
+#           if list[i]>list[j]:
+#               list[i],list[j]=list[j],list[i]
+# print(list)
+
+# li=[3,4,5,6,8,9]
+# mx=li[0]
+# for i in li:
+#     if mx<i:
+#         mx=i
+# print(mx)
+
+
+
+# li=[2,3,4,5,6,7]
+# min=li[0]
+# for i in li:
+#     if min>i:
+#         min=i
+# print(min)
+    
+
+
+# n=int(int(input("ente the number")))
+# sum=0
+
+# for i in range(1,n):
+#     if n%i==0:
+#         sum=sum+i
+# if n==sum:
+#     print("perfect number")
+# else:
+#     print("not a perfect number")
+
+    
+
+# li= [2,3,5,6,7,8,9,4]
+# list=[]
+# for i in li:
+#     if i%2==0:
+#         list.append(i)
+# for i in li:
+#     if i%2!=0:
+#         list.append(i)
+# print(list)
+
+# n=int(input("enter the number"))
+# if n>0:
+#     print("positive")
+# else:
+#     print("invalid")
+# n=int(input("enter the number"))
+# if n>0 and n==0:
+#     print("positive")
+# elif n<0:
+#     print("negative")
+# else:
+#     print("invalid")
+
+# a=10
+# b=20
+
+# a,b=b,a
+# print( " a is a",a)
+# print("b is a",b)
+
+
+
+n=int(input("enter the number"))
+if  n%400==0 or  n%4==0 and n%100!=0:
+
+    print("leap year")
+else:
+    print("not a leap year")
+    
