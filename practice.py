@@ -192,9 +192,9 @@
 
 # print(sum)
 
-a=int(input("enter the number"))
-b=int(input("enter the number"))
-result=1
-for i in range(b):
-    result=result*a
-print(result)
+# a=int(input("enter the number"))
+# b=int(input("enter the number"))
+# result=1
+# for i in range(b):
+#     result=result*a
+# print(result)

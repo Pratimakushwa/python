@@ -78,10 +78,59 @@
 
 
 
-n=int(input("enter the number"))
-if  n%400==0 or  n%4==0 and n%100!=0:
+# n=int(input("enter the number"))
+# if  n%400==0 or  n%4==0 and n%100!=0:
 
-    print("leap year")
-else:
-    print("not a leap year")
-    
+#     print("leap year")
+# else:
+#     print("not a leap year")
+
+# n=int(input("enter the number"))
+# for i in range(1, n+1):
+#     print(i, end=" ")
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print(i,end=" ")
+#     i=i+1
+
+# n=int(input("enterr the number"))
+# sum=0
+# i=1
+# while i<=n:
+#     sum=sum+i
+#     i=i+1
+# print(sum)
+
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     if i%2==0:
+#         print(i,end=" ")
+# i=i+1
+
+
+# n=int(input("enter the number"))
+# fact=1
+# i=1
+# while i<=n:
+#     fact=fact*i
+#     i=i+1
+# print(fact)
+
+n=input("enter the string")
+vowel="aeiouAEIOU"
+even=0
+odd=0
+i=0
+while i < len(n):
+    char=n[i]
+    if char in vowel:
+        even=even+1
+    else:
+        odd=odd+1
+i=i+1
+print(even)
+print(odd)

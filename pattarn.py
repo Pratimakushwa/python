@@ -480,7 +480,195 @@
 # s="python"
 # t=tuple(s)
 # print(t)
-s="python"
-tu=( i for i in s)
-tu=list(tu)
-print(tu)
+# s="python"
+# tu=( i for i in s)
+# tu=list(tu)
+# print(tu)
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print( ' ' *(n-1)+' * '* i)
+
+#     i=i+1
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print("*"*n)
+#     i=i+1
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print('*'* i)
+#     i=i+1
+
+
+
+
+
+
+# n=int(input("enter the number"))
+# i=1
+# while i>0:
+#     print('' *(n-i)+'*' *i)
+
+#     i=i-1
+
+
+
+
+# n = int(input("enter the number"))
+# i = 1
+# while i <= n:
+#     # print(" " * (n - i) + "*" * i)
+#     # print("*" * i +" " *(n-i))
+#     # print("*" *(n-i)+ " " *i)
+#     print("*" *(n-i) +" "*i)
+#     i = i + 1
+
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print(''*(n-i)+'*' *i)
+#     i=i+1
+# i=i-2
+# while i>=1:
+#     # print(''*(n-i)+'*' *i)
+#     print('*' *i + ''*(n-i))
+#     # print(" " *(n-i)+ "* " *i)
+
+#     i=i-1
+
+# n = int(input("enter the number"))
+# i = 1
+
+# # upper half
+# while i <= n:
+#     print(" " * (n - i) + "*" * (2*i-1))
+#     i = i + 1
+
+# # lower half
+# i = i - 2
+# while i >= 1: 
+#     print(" " * (n - i) + "*" * (2*i-1))
+#     i = i - 1
+
+
+
+# n = int(input("Enter the number: "))
+# i = 1
+
+# while i <= n:
+#     # spaces + stars
+#     print(" " * (n - i) + "*" * i )
+#     i = i + 1
+
+# //////////////////
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print("*"*i+ ""*(n-i))
+#     i=i+1
+
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(" "*(n-1)+"*"*i)
+#     i=i+1
+
+
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print("*"*(n-i)+" "*i )5
+
+#     i=i+1
+
+
+
+# pyramid
+# n=int(input("enter the number"))
+# i=n
+# while(i>=1):
+#     print(" "*(n-i)+'*'*(2*i-1))
+#     i=i-1
+
+
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(" " *(n-i)+"*"*(2*i-1))
+#     i=i+1
+
+
+    # hourglass
+# n=int(input("enter the number"))
+# i=n
+# while(i>=1):
+#     print(" "*(n-i)+'*'*(2*i-1))
+#     i=i-1
+# i=2
+# while(i<=n):
+#     print(" " *(n-i)+"*"*(2*i-1))
+#     i=i+1
+
+
+# n = int(input("Enter number: "))
+
+# # upper
+# i = 1
+# while i <= n:
+#     print("*" * i)
+#     i += 1
+
+# # lower
+# i = n-1
+# while i >= 1:
+#     print("*" * i)
+#     i -= 1
+
+# n = int(input("Enter rows: "))
+
+# # Right Triangle
+# i = 1
+# while i <= n:
+#     print(" " * (n - i) + "*" * i)
+#     i += 1
+
+# # Inverted Right Triangle
+# i = n
+# while i >= 1:
+#     print(" " * (n - i) + "*" * i)
+#     i -= 1
+
+# n = int(input("Enter rows: "))
+
+# # Upper triangle
+# i = 1
+# while i <= n:
+#     print("*" *i+" "*(n-i))
+#     i += 1
+
+# # Lower inverted triangle
+# i = n - 1
+# while i >= 1:
+#     print(" " *(n-i)+"*" *i)
+#     # print("*" *i+" "*(n-i))
+
+#     i -= 1
+# n = int(input("Enter rows: "))
+
+# # Upper triangle
+# i = 1
+# while i <= n:
+#     print(" "*(n-i)+"*" * i)
+#     i += 1
+
+# # Lower inverted triangle
+# i = n - 1
+# while i >= 1:
+#     # print(" " *(n-i)+"*" *i)
+#     print("*" *i+" "*(n-i))
+
+#     i -= 1
