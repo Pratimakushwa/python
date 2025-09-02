@@ -98,6 +98,17 @@
 # result=s.replaceall("a","A")
 # print(result)
 
-s="banana,chrry mango"
-result=s.split(";")
-print(result)
+# s="banana,chrry mango"
+# result=s.split(";")
+# print(result)
+
+w="welcome"
+print(w[1:-4:1])
+
+w="welcome"
+print(w[1:4:1])
+
+w="welcome"
+print(w[1:-4:-1])
+w="welcome"
+print(w[-1:-4:1])
