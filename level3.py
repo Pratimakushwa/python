@@ -95,12 +95,98 @@
 #     print(" " * (n - i) + "*" * (2*i-1))
 #     i = i + 1
 
-n=int(input("enter the number"))
+# n=int(input("enter the number"))
 
-count=0
-while n>0:
-    n//=10
-    count=count+1
-print(count)
+# count=0
+# while n>0:
+#     n//=10
+#     count=count+1
+# print(count)
 
+# n=int(input("enter the number"))
+# rev=0
+# while (n>0):
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
  
+# n=int(input("enter the number"))
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit
+#     n= n//10
+# print(sum)
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         print(i)
+    # i=i+1
+# n1=int(input("enter the number"))
+# n2=int(input("enter the number"))
+# for num in range(n1,n2+1):
+#     if num > 1:
+#         for j in range(2,num):
+#             if num%j==0:
+#                 break
+#         else:
+#             print(num)
+    
+
+
+# start=int(input("enter the number"))
+# end=int(input("enter the number"))
+# for n in range(start,end+1):
+#     if n>0:
+#         for j in range(2,n):
+#             if n%j==0:
+#                 break
+#         else:
+#             print(n)
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=10:
+#     print(f"{i}x{n}={i*n}")
+#     i=i+1
+   
+        
+# i=i+1
+
+# for i in range(1, 6):       # 1 to 5 tables
+#     print(f"\nTable of {i}")
+#     for j in range(1, 11):  # 1 to 10 multiplication
+#         print(f"{i} x {j} = {i*j}")
+
+
+
+# list=[1,2,3,4,5,6,7]
+# for num in list:
+#     print(num ,end=" ")
+
+# li=[1,2,3,4,5,5]
+# li.append(7)
+# print(li)
+
+
+# list=[4,5,6,7,8,93,5]
+# for i in range(len(list)):
+#     for j in range(i+1,len(list)):
+#         if list[i]>list[j]:
+#             list[i],list[j]=list[j],list[i]
+# print(list)
+
+
+# li=[2,3,4,5,6]
+# li.reverse()
+# print(li)
+
+
+
+
+# set={2,3,4,5,6,3,6,4,5}
+# set.add(37)
+# print(set)
