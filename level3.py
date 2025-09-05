@@ -190,3 +190,35 @@
 # set={2,3,4,5,6,3,6,4,5}
 # set.add(37)
 # print(set)
+
+# list=[2,3,4,5,6,7]
+# # print(list[2])
+# print(list[2:5:])
+
+
+# li=[3,4,5,6,7,8]
+# li.append(9)
+# print(li)
+
+
+# list1=[2,3,4,5,6,7]
+# list2=[4,5,6,78,9,99]
+# list1.extend(list2)
+# print(list1)
+
+# list=[1,2,3,4,5,6]
+# list.insert(2,44)
+# print(list)
+
+# list=[2,3,4,5,6,7]
+# list.remove(4)
+# print(list)
+
+# list=[2,3,4,6,7,4]
+# list.reverse()
+# print(list)
+
+
+tu=(2,3,4,4,65,5,5,67,5,67,7)
+for i in tu:
+    print(i)
