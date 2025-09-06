@@ -219,6 +219,96 @@
 # print(list)
 
 
-tu=(2,3,4,4,65,5,5,67,5,67,7)
-for i in tu:
-    print(i)
+# tu=(2,3,4,4,65,5,5,67,5,67,7)
+# for i in tu:
+#     print(i)
+
+# dict={
+# "s1":{ "name":"pratima", "age":22,}
+# }
+# print(dict["s1"]["name"])
+
+
+
+
+# # dict1={"a":"azad","b":22}
+# # dict.update(dict1)
+# dict.popitem()
+# print(dict)
+
+# squares = {x: x*x for x in range(1, 6)}
+# print(squares)   
+
+
+# dict={
+#     "a":1233,
+#     "b":"ashu",
+
+# }
+# dict["c"]="3455"
+# dict["a"]="aashi"
+# print(dict)
+
+# # for key in dict:
+# for key in dict.items():
+#     print(key)
+
+
+# s={"a":1,"b":2,"c":3}
+# my_dict={ v:k for k,v in s.items()}
+# print(my_dict)
+# dict={x:( "even" if x%2==0 else "odd" ) for x in range(1,6)}
+# print(dict)
+
+# num=[]
+# for i in range(1,21):
+#     if i%2==0:
+#         num.append(i)
+    
+# print(num)
+# # num=[]
+# # for i in range(1,6):
+# #     num.append(i*i)
+# print(num)
+
+
+# s=["python","programing","practice"]
+# first=[]
+# for i in s:
+#     first.append(i)
+# print(first)
+
+
+# s=["java","pyhton","c"]
+# upper=[]
+# for i in s:
+#     upper.append(i.upper())
+# print(upper)
+
+
+# li=[1,2,2,2,3,3,454,4,4,3,4,5,6,7]
+# list=[]
+# for i in li:
+#     if i not in list:
+#         list.append(i)
+# print(list)
+
+# li=["python","java","touple"]
+# word=[]
+# for i in li:
+#     word.append(i[: : -1])
+# print(word)
+# list=["a","b","c"]
+# li=[]
+# for i in list:
+#     li.append((ord(i)))
+# print(li)
+
+
+
+
+# num=[]
+# for i in range(1,11):
+#     num.append(5*i)
+# print(num)
+
