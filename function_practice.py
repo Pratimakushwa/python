@@ -85,11 +85,94 @@
 
 
 
-def fun(*args):
-    sum=0
-    for i in args:
-        sum=sum+i
-    return sum
+# def fun(*args):
+#     sum=0
+#     for i in args:
+#         sum=sum+i
+#     return sum
 
-result=fun([1,2,3,4,454])
-print(result)
+# result=fun([1,2,3,4,454])
+# print(result)
+
+
+# def fun(*arg):
+   
+#     return  max(*arg)
+
+
+# result=fun(2,3,4,5,6,7,89,77)
+# print(result)
+    
+
+# def fun(*arg):
+#     max=arg[0]
+#     for i in arg:
+#         if i>max:
+#             max=i
+#     return max
+# result=fun(2,3,4,5,6,7,8,8)
+# print(result)
+
+
+# def fun(*arg):
+#     count=0
+#     for i in arg:
+        
+#         count=count+1
+#     return count
+# result=fun(2,3,4,5,6,7,98,9)
+# print(result)
+
+
+# def fun(*arg):
+#     for ars in arg:
+#         print(ars, end=" ")
+# fun(2,3,4,5,6,7,8,9)
+
+
+
+# def fun(*arg):
+#     result=[]
+#     for i in arg:
+#         if i not in result:
+#             result.append(i)
+#     return result
+# data=fun(2,3,4,5,67,8)
+# print(data)
+
+
+# def fun(*args):
+#     return " " .join(args)
+    
+
+
+
+# data=fun("helo","world")
+# print(data)
+
+
+# def targetsum(num,target):
+#     for i in range(len(num)):
+#         for j in range(i+1,len(num)):
+#             if num[i]+num[j]==target:
+#                 return True
+#         return False
+# print(targetsum([1,2,3,4,5,6],7))
+
+
+# def fun(num):
+#     temp=num
+#     rev=0
+#     while num >0:
+#         digit=num%10
+#         rev=rev*10+digit
+#         num=num//10
+#     return rev==temp
+# print(fun(121))
+
+
+
+        
+
+
+
