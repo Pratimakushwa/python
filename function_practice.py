@@ -171,8 +171,93 @@
 # print(fun(121))
 
 
+# def is_armstrong(num):
+#     # -------- Step 1: Count digits --------
+#     temp = num
+#     count = 0
+#     while temp > 0:
+#         count += 1
+#         temp = temp // 10
 
+#     # -------- Step 2: Find sum of powers --------
+#     temp = num
+#     total = 0
+#     while temp > 0:
+#         digit = temp % 10   # last digit
+
+#         # digit ^ count निकालना manually (बिना pow())
+#         power = 1
+#         i = 0
+#         while i < count:
+#             power *= digit
+#             i += 1
+
+#         total += power
+#         temp = temp // 10   # अगला digit
+
+#     # -------- Step 3: Check condition --------
+#     if total == num:
+#         return True
+#     else:
+#         return False
+
+
+
+
+# def unique(*arg):
+#     result= [ ]
+#     for i in arg:
+#         if i not in result:
+#             result.append(i)
+#     return result
+
+# print(unique(2,3,4,5,6,6,4,3,2))
         
 
 
+# def sum(*arg):
+#     sum=0
+#     for i in arg:
+#         sum=sum+i
+#     return sum
+    
+# print(sum(2,3,4,5,85,12,5,))
 
+# def anagram(str1,str2):
+#     if len(str1)!= len(str2):
+#         return False
+#     for ch in str1:
+#         if str1.count(ch)!= str2.count(ch):
+#             return False
+#     return True
+
+# print(anagram("listen","slient"))
+# print(anagram("hello","world"))
+
+
+# num=int(input("enter the number"))
+# for i in range(1,num+1):
+#     print(i)
+
+
+
+# n1=int(input("enter the number"))
+# n2=int(input("enter the number"))
+# for i in range(n1,n2+1):
+#     if i%2==0:
+#         print(i,end=" ")
+
+# num =int(input('enterr the number'))
+# for i in range(1,11):
+#     print(num*i)
+
+
+
+
+
+
+
+
+   
+
+ 
