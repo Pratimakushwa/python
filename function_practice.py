@@ -251,6 +251,14 @@
 # for i in range(1,11):
 #     print(num*i)
 
+# def count_char(s,target):
+#     count=0
+#     for ch in s:
+#         if ch== target:
+#             count +=1
+#     return count
+# print(count_char("hello","l"))
+
 
 
 
