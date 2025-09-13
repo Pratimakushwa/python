@@ -256,9 +256,116 @@
 # else:
 #     print("not armstrong")
 
-n=int(input("enter the number"))
-rev=0
-temp=n
-while temp >0:
-    digit=temp%10
+# n=int(input("enter the number"))
+# rev=0
+# temp=n
+# while temp >0:
+#     digit=temp%10
+#     rev=rev*10+digit
+#     temp=temp//10
+# if rev==n:
+#     print("palindrom ")
+# else:
+#     print("not a plindrom")
+
+# n=int(input("enter the number"))
+
+# a=0
+# b=1 
+# print(" febonacci resries")
+
+# for i in range(1,n+1):
+
+
+
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
+
+
+# a=int(input("enter the number"))
+# b=int(input("enteer the  number"))
+# if (a>b):
+#     smallest= a
+# else:
+#     smallest=b
+# for i in range(1,smallest+1):
+#     if((a%i==0) and (b%i==0)):
+#         hcf=i
+# print(hcf)
+
+# dic={
+#     "name": "pratima",
+#     "age": 22
+
+# }
+# dic.update("a": "a")
+# for key in dic.items():
+#     print(key)
+
+
+# s="python"
+
+
+# print(list(s))
+
+
+# n=int(input("enter the number"))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+
+# n=int(input("enter the number"))
+# sum=0
+# for i in range(1,n+1):
+#     if i%2 !=0:
+#         sum=sum+i
+# print(sum)
+
+# n=int(input("enter the number"))
+# for i in range(1,11):
+#     print(n*i)
     
+
+# li=[1,2,3,4,6,8,5]
+# for i in li:
+#     print(i,end=" ")
+
+# n= int(input("enter the number"))
+# count=0
+# while n>0:
+#     n= n//10
+#     count=count+1
+# print(count)
+
+# s1="silent"
+# s2="listen"
+# if s1 != s2:
+#     print("not anagram")
+# else:
+#    count1={}
+#    count2={}
+#    for ch in s1:
+#        if ch in count1:
+#          count1[ch]+=1
+#        else:
+#           count1[ch]=1
+#     for ch in s2:
+      
+
+# s="python"
+# print(s[-1:-1:-1])
+
+
+
+start=int(input("enter the number"))
+end=int(input("enter the number"))
+for i in range(start,end+1):
+    if i<1:
+        print(i)
+    for i in  range(2,end+1):
+        if i%2 !=0:
+            continue
+    print(i)
+
