@@ -69,18 +69,18 @@
 
 
 
-def fact(num):
-    a=0
-    b=1
+# def fact(num):
+#     a=0
+#     b=1
     
-    for i in range(2,num):
-        print(a)
-        c=a+b
-        print(c)
-        a=b
-        b=c
-num=int(input("enter a number"))
-fact(num)
+#     for i in range(2,num):
+#         print(a)
+#         c=a+b
+#         print(c)
+#         a=b
+#         b=c
+# num=int(input("enter a number"))
+# fact(num)
 
 
 

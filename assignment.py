@@ -169,16 +169,29 @@
 #         print(temp)
 
 
-start=int(input("enter the number"))
-end=int(input("enter the numebr"))
-even_sum=0
-odd_sum=0
-for i in range(start,end+1):
-    if i%2==0:
-        even_sum+=i
-    else:
-        odd_sum+=i
-print("even_sum is a ", even_sum)
-print("odd_sum is a ", odd_sum)
+# start=int(input("enter the number"))
+# end=int(input("enter the numebr"))
+# even_sum=0
+# odd_sum=0
+# for i in range(start,end+1):
+#     if i%2==0:
+#         even_sum+=i
+#     else:
+#         odd_sum+=i
+# print("even_sum is a ", even_sum)
+# print("odd_sum is a ", odd_sum)
+
+
+# n=int (input("enter the number"))
+# for num in range(1,n+1):
+#     temp=num
+#     sum=0
+#     while temp>0:
+#         digit=temp%10
+#         sum=sum+digit*3
+#         temp=temp//10
+
+# if num==sum:
+#     print(num)
 
 

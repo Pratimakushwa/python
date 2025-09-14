@@ -3,7 +3,7 @@
 # for i in range(1,n):
 #     if n%i==0:
 #         # factor.append(i)
-#      print(i,end=" ")
+#      print(i*i,end=" ")
 
 
 # n=int(input("enter the number"))
@@ -73,13 +73,13 @@
 #     if i!=0:
 #         l.append(i)
 # n=len(li)-len(l)
-# for i in li:
+# for i in range(n):
 #     l.append(0)
 # print(l)
 
 
 # n=int(input("enter the number"))
-# if n>=1:
+# if n>=0:
 #     print("positive number")
 # else:
 #     print("negative")
@@ -139,8 +139,31 @@
 #     if i%2==0:
 #         print(i)
 #     i=i+1
-    
-  
+
+# n=int(input("enter the number"))
+# sum=0
+# i=1
+# while n>=i:
+#     sum=sum+i
+#     i=i+1
+# print(sum)
+ 
+
+
+# n = int(input("Enter the number: "))
+# sum = 0
+# i = 1
+
+# while i <= n:
+#     sum = sum + i
+#     i = i + 1
+
+# print("Sum =", sum)
+
+   
+
+
+
 # n=int(input("enter the number"))
 # fact=1
 # i=1
@@ -359,13 +382,13 @@
 
 
 
-start=int(input("enter the number"))
-end=int(input("enter the number"))
-for i in range(start,end+1):
-    if i<1:
-        print(i)
-    for i in  range(2,end+1):
-        if i%2 !=0:
-            continue
-    print(i)
+# start=int(input("enter the number"))
+# end=int(input("enter the number"))
+# for i in range(start,end+1):
+#     if i<1:
+#         print(i)
+#     for i in  range(2,end+1):
+#         if i%2 !=0:
+#             continue
+#     print(i)
 

@@ -596,11 +596,11 @@
 #     i=i-1
 
 
-n=int(input("enter the number"))
-i=1
-while(i<=n):
-    print(" " *(n-i)+"*"*(2*i-1))
-    i=i+1
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(" " *(n-i)+"*"*(2*i-1))
+#     i=i+1
 
 
     # hourglass
@@ -673,3 +673,38 @@ while(i<=n):
 #     print("*" *i+" "*(n-i))
 
 #     i -= 1
+
+# n=int(input("enter the number"))
+# i=1
+# while i<=n:
+#     print(" "*(n-i),end=" ")
+#     j=1
+#     while j<=i:
+#         print(j,end=" ")
+#         j=j+1
+#     print()
+#     i=i+1
+
+
+# n = int(input("enter the number"))
+# i = n
+# while i >= 1:
+#     print(" " * (n - i), end="")     # spaces
+#     j = 1
+#     while j <= i:
+#         print(chr(65+j), end="")             # 1 2 3 ...
+#         j = j + 1
+#     print()
+#     i = i - 1
+
+
+# n=int(input("enter the number"))
+# i=n
+# while i>=1:
+#     j=0
+#     while j<i:
+#         print( chr(65+j),end="")
+#         j= j + 1
+#     print()
+#     i=i-1
+

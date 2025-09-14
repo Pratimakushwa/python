@@ -296,6 +296,7 @@
 # print(A._principal)
 
 # private
+
 class A :
     __principal= 'python'
     def _show (self):

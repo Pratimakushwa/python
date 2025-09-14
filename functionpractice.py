@@ -233,21 +233,34 @@
 # print("Vowel count:", count_vowels(n))
 
 
-def is_prime(n):
-    is_prime=True
-    for i in range(2,n):
-      if n%i==0:
-        is_prime =False
-        break
-    return is_prime
+# def is_prime(n):
+#     is_prime=True
+#     for i in range(2,n):
+#       if n%i==0:
+#         is_prime =False
+#         break
+#     return is_prime
      
-n=int(input("enter the number"))
-print(is_prime(n))
+# n=int(input("enter the number"))
+# print(is_prime(n))
 
-if is_prime:
-   print("prime")
+# if is_prime:
+#    print("prime")
 
-else:
-   print("not a prime")
+# else:
+#    print("not a prime")
 
       
+
+
+# n=int(input("enter the number"))
+# if n<=1:
+#     print("not a prime number")
+
+# for i in range(2,n):
+#     if n%i==0:
+#         print("not prime number")
+#         break
+#     else:
+#         print("prime number")
+        
