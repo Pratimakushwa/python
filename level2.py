@@ -102,13 +102,14 @@
 # result=s.split(";")
 # print(result)
 
-w="welcome"
-print(w[1:-4:1])
+# w="welcome"
+# print(w[1:-4:1])
 
-w="welcome"
-print(w[1:4:1])
+# w="welcome"
+# print(w[1:4:1])
 
-w="welcome"
-print(w[1:-4:-1])
+# w="welcome"
+# print(w[1:-4:-1])
+
 w="welcome"
 print(w[-1:-4:1])

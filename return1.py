@@ -419,7 +419,7 @@
 # import functools
 # l=[1,2,3,4,45,6,7,89,]
 # def max_digit(x,y):
-#     return
+#     return x if x > y else y
 # result=functools.reduce(max_digit,l)
 # print(result)
 
@@ -630,12 +630,12 @@
 # print(s1)
 
 
-s="python"
-s1=''
-for i in range(5,-1,-1):
+# s="python"
+# s1=''
+# for i in range(5,-1,-1):
 
-    s1=s1+s[i]
-print(s1)
+#     s1=s1+s[i]
+# print(s1)
 
     
 # class student:
@@ -693,6 +693,12 @@ print(s1)
 # print(obj.x)
 # print(obj.y)
 
-
+l=[12,3,4,5,6,7]
+for num in l:
+    for i in range(2,num):
+        if num%i==0:
+            break
+    else:
+        print(num)
 
         

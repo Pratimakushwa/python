@@ -1,9 +1,10 @@
-# s="python"
-# s1=''
-# for i in s:
-#     i=chr(ord(i)+1)
-#     s1=s1+i
-# print(s1)
+s="python"
+s1=''
+for i in s:
+    i=chr(ord(i)+1)
+    s1=s1+i
+print(s1)
+
 # s="python"
 # s=''
 # for i in s:
@@ -32,7 +33,7 @@
 
 #     if is_prime:
 #        print("prime number")
-#     else:
+#     else: 
 #        print("not a prime number")
 # n= int (input("enter the number"))
 # is_prime(n)

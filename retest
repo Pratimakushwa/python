@@ -1,0 +1,72 @@
+# n=int(input("enter the number"))
+# factor=[]
+# for i in range(1,n+1):
+#     if n%i==0:
+#         factor.append(i)
+# print(factor)
+
+# l=[2,4,5,3,5,6,7,8,9,3]
+# for i in range(len(l)):
+#     for j in range(i,len(l)):
+#         if l[i]>l[j]:
+#             l[i],l[j]=l[j],l[i]
+# print(l)
+
+
+# l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
+
+# max=l[0]
+# for i in l:
+#     if i>max:
+#         max=i
+# print(max)
+
+# l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
+
+# max=l[0]
+# for i in range(len(l)):
+#     if l[i]>max:
+#         max=l[i]
+# print(max)
+
+# n=int(input("enter the number"))
+# sum=0
+# for i in range( 1,n):
+#     if n%i==0:
+#         sum=sum+i
+# if sum==n:
+#     print("perfect number")
+# else:
+#     print("not a perfect number")
+
+
+# n=int(input("enter the number"))
+# factor=[]
+# for i in range(1,n+1):
+#     if n%i==0:
+#         factor.append(i)
+# print (factor)
+
+# l=[2,3,4,5,6,7,8,9,6532,45]
+# li=[]
+# for i in l:
+#     if i%2==0:
+#         li.append(i)
+# for i in l:
+#     if i%2 !=0:
+#         li.append(i)
+# print(li)
+
+
+# l=[1,0,5,0,4,0,34,5,0,4]
+# li=[]
+# for i in l:
+#     if i!=0:
+#         li.append(i)
+# n=len(l)-len(li)
+# for i in range(n):
+#     li.append(0)
+# print(li)
+
+
+

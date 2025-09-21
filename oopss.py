@@ -297,17 +297,17 @@
 
 # private
 
-class A :
-    __principal= 'python'
-    def _show (self):
-        print(A.__principal)
-class B(A):
+# class A :
+#     __principal= 'python'
+#     def _show (self):
+#         print(A.__principal)
+# class B(A):
     
-    def new (self):
-        print(A.__A__principal)
-obj=B()
-# obj.new()
-# obj.__show()
-# print(A.__principal)
-print (dir(A))
-print(A._A__principal)
+#     def new (self):
+#         print(A.__A__principal)
+# obj=B()
+# # obj.new()
+# # obj.__show()
+# # print(A.__principal)
+# print (dir(A))
+# print(A._A__principal)

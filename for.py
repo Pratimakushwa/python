@@ -44,14 +44,14 @@
 #     print("not a palindrom")
 
 
-# num= int(input("enter the nunmber"))
-# a=0
-# b=1
-# for i in range(num):
-#     print(a)
-#     c=a+b
-#     a=b
-#     b=c
+num= int(input("enter the nunmber"))
+a=0
+b=1
+for i in range(num):
+    print(a)
+    c=a+b
+    a=b
+    b=c
 
 # num=int(input("enter the number"))
 # count=0
@@ -87,17 +87,17 @@
 #     result=result*base
 # print(result)
 
-num=int(input("enter the number"))
-temp=num
-sum=0
-while temp>0:
-    digit=temp%10
-    sum=sum+digit*digit*digit
-    temp=temp//10
-if sum==num:
-    print("armtrong")
-else:
-    print("not a armstrong")
+# num=int(input("enter the number"))
+# temp=num
+# sum=0
+# while temp>0:
+#     digit=temp%10
+#     sum=sum+digit*digit*digit
+#     temp=temp//10
+# if sum==num:
+#     print("armtrong")
+# else:
+#     print("not a armstrong")
 
 
 
