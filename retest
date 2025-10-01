@@ -1,72 +1,699 @@
+# # n=int(input("enter the number"))
+# # factor=[]
+# # for i in range(1,n+1):
+# #     if n%i==0:
+# #         factor.append(i)
+# # print(factor)
+
+# # l=[2,4,5,3,5,6,7,8,9,3]
+# # for i in range(len(l)):
+# #     for j in range(i,len(l)):
+# #         if l[i]>l[j]:
+# #             l[i],l[j]=l[j],l[i]
+# # print(l)
+
+
+# # l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
+
+# # max=l[0]
+# # for i in l:
+# #     if i>max:
+# #         max=i
+# # print(max)
+
+# # l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
+
+# # max=l[0]
+# # for i in range(len(l)):
+# #     if l[i]>max:
+# #         max=l[i]
+# # print(max)
+
+# # n=int(input("enter the number"))
+# # sum=0
+# # for i in range( 1,n):
+# #     if n%i==0:
+# #         sum=sum+i
+# # if sum==n:
+# #     print("perfect number")
+# # else:
+# #     print("not a perfect number")
+
+
+# # n=int(input("enter the number"))
+# # factor=[]
+# # for i in range(1,n+1):
+# #     if n%i==0:
+# #         factor.append(i)
+# # print (factor)
+
+# # l=[2,3,4,5,6,7,8,9,6532,45]
+# # li=[]
+# # for i in l:
+# #     if i%2==0:
+# #         li.append(i)
+# # for i in l:
+# #     if i%2 !=0:
+# #         li.append(i)
+# # print(li)
+
+
+# # l=[1,0,5,0,4,0,34,5,0,4]
+# # li=[]
+# # for i in l:
+# #     if i!=0:
+# #         li.append(i)
+# # n=len(l)-len(li)
+# # for i in range(n):
+# #     li.append(0)
+# # print(li)
+
+
+
+# # n=int(input("enter the number"))
+
+# # temp=n
+# # sum=0
+# # x=len(str(n))
+
+# # while n>0:
+# #     digit=n%10
+# #     sum=sum+digit**x
+# #     n=n//10
+# # if sum==temp:
+# #     print("armstrong")
+# # else:
+# #     print("not a armstrong")
+
+# # n=int(input("enter the number"))
+# # a=0
+# # b=1
+
+# # for i in range(n):
+# #     print(a)
+# #     c=a+b
+# #     a=b
+# #     b=c
+
+
+# # n=input("enter the string")
+# # v="aeiowAEIOU"
+# # vowel=0
+# # consonent=0
+# # space=0
+# # for i in n:
+# #     if i in v:
+# #         vowel=vowel+1
+# #     elif i not in v:
+# #         consonent=consonent+1
+# #     else:
+# #         space=space+1
+# # print(vowel)
+# # print(consonent)
+# # print(space)
+
+    
+# # x=range(10)
+# # print(x,type(x))
+
+# # print(list(x))
+    
+# # s1,s2='python','language'
+# # s="".join(s1,s2)
+# # print(s)
+
+# # s='python-language'
+# # print(s.split())
+    
+# # s='this is python language'
+# # print(s.split())
+    
+# # s='python-language-this-python-class'
+# # print(s.split())
+
+# # s='python'
+# # print(s.split('o'))
+
+    
+
+# # n=int(input("enter the number"))
+# # for i in range(1,n+1):
+# #     print(' '*(n-i)+('* ' *i))
+
+
+
+
+# # n=int(input("enter the number"))
+# # for i in range(1,n+1):
+# #     print('*'*i +' ' *(n-i) )
+
+# # n=int(input("enter the number"))
+# # for i in range(1,n+1):
+# #     print(' ' *(n-i) +'*'*i)
+
+# # n=int(input("enter the number"))
+# # for i in range(1,n+1):
+# #     print('*'* i)
+
+
+
+
+# # n=int(input("enter the number"))
+# # rev=0
+# # temp=n
+# # while temp>0:
+# #     digit=temp%10
+# #     rev= rev*10+digit
+# #     temp = temp//10
+# # if rev== n:
+# #     print("palindrome")
+# # else:
+# #     print("not a palindrome")
+# # s1="silent"
+# # s2="listen"
+# # if len(s1) !=len(s2):
+# #     print("not an anagram")
+# # else:
+# #     count1={}
+# #     count2={}
+# #     for ch in s1:
+# #         if ch in count1:
+# #             count1[ch]=count1[ch]+1
+# #         else:
+# #             count1[ch]=1
+
+# #     for ch in s2:
+# #         if ch in count2:
+# #             count2[ch]=count2[ch]+1
+# #         else:
+# #             count2 [ch]=1
+# # if count1 == count2:
+# #     print("anagram")
+# # else:
+# #     print("not anagram")
+
+
+
+
+
+
+# # n=5
+# # i=1
+# # while i<=n:
+# #     print('*'*i +' '*(n-i))
+# #     i=i+1
+# # n=5
+# # for i in range(1,n+1):
+# #     print('*'*i +' '*(n-i))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # n=5
+# # for _ in range(n):
+# #      s='A'
+# #      for _ in range(n):
+# #          print(s,end=' ')
+# #          s=chr(ord(s)+1)
+# #      print()
+
+
+# # n = 5
+
+# # for i in range(1,n+1):
+# #     s=1
+# #     for j in range(1,i+1):
+# #         print(j, end=" ")
+# #         s=s+1
+      
+# #     print()
+
+# # n=5
+# # for i in range(1,n+1):
+# #     s='A'
+# #     for j in range(i):
+# #         print(s,end='')
+# #         s=chr(ord(s)+1)
+# #     print()
+
+
+# # n = 4
+# # for i in range(n, 0, -1):
+# #     print(' ' * (n - i), end='')   # spaces
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end='')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+
+# # n = 4
+# # for i in range(n, 0, -1):
+# #     print(' ' * (n - i), end='')   # spaces
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end='')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+
+
+
+
+
+
+
+
+# # n=5
+# # for i in range(1,n+1):
+# #     s=1
+# #     for j in range(1,i+1):
+# #         print(s,end="")
+# #         s=s+1
+# #     print()
+# # n=5
+# # for i in range(1,n+1):
+# #     s='A'
+# #     for j in range(1,i+1):
+# #         print(s,end="")
+# #         s=chr(ord(s)+1)
+# #     print()
+
+
+# # n=5
+# # for i in range(n,0,-1):
+# #     s=1
+# #     for i in range(i):
+# #         print(s,end="")
+# #         s=s+1
+# #     print()
+
+# # n=5
+# # for i in range(n,0,-1):
+# #     s='A'
+# #     for i in range(i):
+# #         print(s,end="")
+# #         s=chr(ord(s)+1)
+# #     print()
+
+
+# # n = 4
+# # for i in range(n, 0, -1):
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end=' ')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+
+
+# # n = 4
+# # for i in range(1,n+1):
+# #     print(' ' * (n - i), end='')   # spaces
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end='')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+
+# # n = 5
+# # for i in range(1, n+1):
+# #     print(' ' * (n - i), end=' ')   # left spaces
+# #     s = 1                           # हर row में 1 से start
+# #     for j in range(i):
+# #         print(s, end='')
+# #         s = s + 1
+# #     print()
+
+# # n = 4
+# # for i in range(n,0,-1):
+# #     # print(' ' * (n - i), end='')   # spaces
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end=' ')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+
+
+
+
+# # n = 4
+# # for i in range(n, 0, -1):
+# #     print(' ' * (n - i), end='')   # spaces
+# #     ch = 'A'
+# #     for j in range(i):
+# #         print(ch, end='')
+# #         ch = chr(ord(ch) + 1)
+# #     print()
+                            
+# # n = 5
+# # for i in range(1,n+1):
+# #     s=1
+# #     for j in range(1,i+1):
+# #         print(j,end='')
+# #         s=s+1
+# #     print()
+
+
+# # n=5
+
+# # for i in range(n,0,-1):
+# #     s=1
+# #     for j in range(1,i+1):
+# #         print(j,end=" ")
+# #         s=s+1
+# #     print()
+
+# # n=5
+# # s=1
+# # for i in range(n,0,-1):
+# #     print(''*(n-i) ,end=" ")
+# #     for j in range(i):
+# #         print(j,end='')
+# #         s=s+1
+# #     print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # n=5
+# # s='A'
+# # for i in range(1,n+1):
+     
+# #      for j in range(1,i+1):
+# #          print(s,end=' ')
+# #          s=chr(ord(s)+1)
+# #      print()
+# # n=5
+# # num=1
+# # for i in range(1,n+1):
+     
+# #      for j in range(i):
+# #          print(num,end=' ')
+# #         #  s=chr(ord(s)+1)
+# #      print()
+
+
+# # n = 5
+# # s = 'A'
+
+# # for i in range(n, 0, -1):   # start from n to 1
+    
+# #     for j in range(i):
+# #         print(s, end=' ')
+# #         s= chr(ord(s) + 1)
+# #     print()
+
+
+# # n = 5
+# # # num = 1
+
+# # for i in range(n, 0, -1):  # from 5 to 1
+# #     num = 1
+# #     temp = num
+# #     for j in range(i):
+# #         print(temp, end=' ')
+# #         temp += 1
+# #     print()
+
+
+
+
+
+
+
+
+
+
+
+n=5
+s='A'
+for i in range(1,n+1):
+    print(' '*(n-i), end="")
+    l=[]
+    for i in range(1,i+1):
+        l.append(s)
+        s=chr(ord(s)+1)
+    print(" ".join(l))
+     
+     
+
+# # n=5
+# # for i in range(n,0,-1):
+# #     s='A'
+# #     print(' '*(n-i), end="  ")
+# #     l=[]
+# #     for i in range(1,i+1):
+# #         l.append(s)
+# #         s=chr(ord(s)+1)
+# #     print("_".join(l))
+# # n=5
+# # for i in range(1,n+1):
+# #     s='A'
+# #     print(' '*(n-i), end="  ")
+# #     l=[]
+# #     for i in range(1,i+1):
+# #         l.append(s)
+# #         s=chr(ord(s)+1)
+# #     print("_".join(l))
+     
+     
+
+
+# # n=5
+# # s=1
+# # for i in range(1,n+1):
+# #     print('  '*(n-i),end='  ')
+# #     l=[]
+# #     for j in range(1,i+1):
+# #         l.append(str(s))
+# #         s=s+1
+# #     print("  ".join(l))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # n=5
+# # for i in range(1,n+1):
+# #      s='A'
+# #      for j in range(1,i+1):
+# #          print(s,end=' ')
+# #          s=chr(ord(s)+1)
+# #      print()
+# # n=5
+# # s='A'
+# # for _ in range(n):
+# #     print(s,end=' ')
+# #     s=chr(ord(s)+1)
+
+
+
+# # n=5
+# # for i in range(1,n+1):
+# #     print(' '*(n-i),end='')
+# #     ch='A'
+# #     for j in range(1,i+1):
+# #         print(ch,end=" ")
+# #         ch=chr(ord(ch)+1)
+# #     print()
+# # n=n-1
+# # for i in range(n,0,-1):
+# #     print(' '*(n-i),end='')
+# #     ch='A'
+# #     for j in range(1,i+1):
+# #         print(ch,end=" ")
+# #         ch=chr(ord(ch)+1)
+# #     print()
+
+
+# # n=5
+# # s='A'
+# # for i in range(1,n+1):
+# #     print(" "*(n-i),end='')
+# #     l=[]
+# #     for j in range(1,i):
+# #         l.append(s)
+# #         s=chr(ord(s)+1)
+# #     print(" ".join(l))
+
+
+# # //
+# # n=5
+# # s='A'
+# # for i in range(1,n+1):
+# #     for j in range(1,i+1):
+# #         print(s,end='')
+# #         s=chr(ord(s)+1)
+# #     print()
+
+# # n=5
+# # s='A'
+# # for i in range(n,0,-1):
+# #     for j in range(i):
+# #         print(s,end='')
+# #         s=chr(ord(s)+1)
+# #     print()
+
+# # n=5
+# # s='A'
+# # for i in range(1,n+1):
+# #     print(" "*(n-i),end="")
+# #     for j in range(i):
+# #         print(s,end='')
+# #         s=chr(ord(s)+1)
+# #     print()
+
+
+# # n=int(input("enter the number"))
+# # fact=[]
+# # for i in range(1,n+1):
+# #     if n%i==0:
+# #          fact.append(i)
+# # print(fact)
+
+
+
+# # start=int(input("enter the number"))
+# # end=int(input("enter the end number"))
+# # l=[]
+# # for i in range(start,end+1):
+# #     if i%2==0:
+# #         l.append(i)
+# # print(l)
+
+
+# # n=int(input("enter the number"))
+# # y=x=n
+# # sum=0
+# # count=0
+# # while n>0:
+# #     count=count+1
+# #     n=n//10
+# # while x>0:
+# #     digit=x%10
+# #     sum=sum+digit**count
+# #     x=x//10
+# # if y==sum:
+# #     print('armstron')
+# # else:
+# #     print('not armstrong')
+
+# n=int(input('enter the number'))
+# count=0
+# while n>0:
+#     n=n//10
+#     count=count+1
+# print(count)
+
+
+
 # n=int(input("enter the number"))
-# factor=[]
-# for i in range(1,n+1):
-#     if n%i==0:
-#         factor.append(i)
-# print(factor)
+# x=n
+# sum=0
+# while n>0:
+#     digit=n%10
+#     sum=sum+digit
+#     n=n//10
+# if x%sum==0:
+#     print("harsad number")
+# else:
+#     print("not a harsad number")
 
-# l=[2,4,5,3,5,6,7,8,9,3]
-# for i in range(len(l)):
-#     for j in range(i,len(l)):
-#         if l[i]>l[j]:
-#             l[i],l[j]=l[j],l[i]
-# print(l)
-
-
-# l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
-
-# max=l[0]
-# for i in l:
-#     if i>max:
-#         max=i
-# print(max)
-
-# l=[2,4,6,7,89,4,3,3,4,5,7,88,9]
-
-# max=l[0]
-# for i in range(len(l)):
-#     if l[i]>max:
-#         max=l[i]
-# print(max)
+# n=int(input("enter the number"))
+# x=n
+# sum=0
+# s=n*n
+# while s>0:
+#     digit=s%10
+#     sum=sum+digit
+#     s=s//10
+# if x==sum:
+#     print("neon number")
+# else:
+#     print("not a neon number")
 
 # n=int(input("enter the number"))
 # sum=0
-# for i in range( 1,n):
-#     if n%i==0:
-#         sum=sum+i
-# if sum==n:
-#     print("perfect number")
+# product=1
+# while n>0:
+#     digit= n%10
+#     sum=sum+digit
+#     product=product+digit
+
+# if sum==product:
+#     print("spy numbberr")
 # else:
-#     print("not a perfect number")
+#     print("not a spy number")
 
 
-# n=int(input("enter the number"))
-# factor=[]
+
+
+# n=5
+# s='A'
+# for i in range(n,0,-1):
+#     print(" "*(n-i),end="")
+#     l=[]
+#     for j in range(1,i+1):
+#         l.append(s)
+#         s=chr(ord(s)+1)
+#     print(' '.join(l))
+
+
+
+# n=5
+# s='A'
 # for i in range(1,n+1):
-#     if n%i==0:
-#         factor.append(i)
-# print (factor)
-
-# l=[2,3,4,5,6,7,8,9,6532,45]
-# li=[]
-# for i in l:
-#     if i%2==0:
-#         li.append(i)
-# for i in l:
-#     if i%2 !=0:
-#         li.append(i)
-# print(li)
-
-
-# l=[1,0,5,0,4,0,34,5,0,4]
-# li=[]
-# for i in l:
-#     if i!=0:
-#         li.append(i)
-# n=len(l)-len(li)
-# for i in range(n):
-#     li.append(0)
-# print(li)
-
-
+#     print(' ' * (n-i),end="")
+#     for i in range(1,i+1):
+#         print(s,end='')
+#         s=chr(ord(s)+1)
+#     print()
+# # n=n-1
+# for i in  range(n,0,-1):
+#     print(' '*(n-i),end="")
+#     for i in range(1,i+1):
+#         print(s,end=' ')
+#         s=chr(ord(s)+1)
+#     print()
 
