@@ -514,122 +514,122 @@ for i in range(1,n+1):
 
 
 
-# # n=5
-# # for i in range(1,n+1):
-# #      s='A'
-# #      for j in range(1,i+1):
-# #          print(s,end=' ')
-# #          s=chr(ord(s)+1)
-# #      print()
-# # n=5
-# # s='A'
-# # for _ in range(n):
-# #     print(s,end=' ')
-# #     s=chr(ord(s)+1)
+# n=5
+# for i in range(1,n+1):
+#      s='A'
+#      for j in range(1,i+1):
+#          print(s,end=' ')
+#          s=chr(ord(s)+1)
+#      print()
+# n=5
+# s='A'
+# for _ in range(n):
+#     print(s,end=' ')
+#     s=chr(ord(s)+1)
 
 
 
-# # n=5
-# # for i in range(1,n+1):
-# #     print(' '*(n-i),end='')
-# #     ch='A'
-# #     for j in range(1,i+1):
-# #         print(ch,end=" ")
-# #         ch=chr(ord(ch)+1)
-# #     print()
-# # n=n-1
-# # for i in range(n,0,-1):
-# #     print(' '*(n-i),end='')
-# #     ch='A'
-# #     for j in range(1,i+1):
-# #         print(ch,end=" ")
-# #         ch=chr(ord(ch)+1)
-# #     print()
+# n=5
+# for i in range(1,n+1):
+#     print(' '*(n-i),end='')
+#     ch='A'
+#     for j in range(1,i+1):
+#         print(ch,end=" ")
+#         ch=chr(ord(ch)+1)
+#     print()
+# n=n-1
+# for i in range(n,0,-1):
+#     print(' '*(n-i),end='')
+#     ch='A'
+#     for j in range(1,i+1):
+#         print(ch,end=" ")
+#         ch=chr(ord(ch)+1)
+#     print()
 
 
-# # n=5
-# # s='A'
-# # for i in range(1,n+1):
-# #     print(" "*(n-i),end='')
-# #     l=[]
-# #     for j in range(1,i):
-# #         l.append(s)
-# #         s=chr(ord(s)+1)
-# #     print(" ".join(l))
+# n=5
+# s='A'
+# for i in range(1,n+1):
+#     print(" "*(n-i),end='')
+#     l=[]
+#     for j in range(1,i):
+#         l.append(s)
+#         s=chr(ord(s)+1)
+#     print(" ".join(l))
 
 
-# # //
-# # n=5
-# # s='A'
-# # for i in range(1,n+1):
-# #     for j in range(1,i+1):
-# #         print(s,end='')
-# #         s=chr(ord(s)+1)
-# #     print()
+# //
+# n=5
+# s='A'
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(s,end='')
+#         s=chr(ord(s)+1)
+#     print()
 
-# # n=5
-# # s='A'
-# # for i in range(n,0,-1):
-# #     for j in range(i):
-# #         print(s,end='')
-# #         s=chr(ord(s)+1)
-# #     print()
+# n=5
+# s='A'
+# for i in range(n,0,-1):
+#     for j in range(i):
+#         print(s,end='')
+#         s=chr(ord(s)+1)
+#     print()
 
-# # n=5
-# # s='A'
-# # for i in range(1,n+1):
-# #     print(" "*(n-i),end="")
-# #     for j in range(i):
-# #         print(s,end='')
-# #         s=chr(ord(s)+1)
-# #     print()
-
-
-# # n=int(input("enter the number"))
-# # fact=[]
-# # for i in range(1,n+1):
-# #     if n%i==0:
-# #          fact.append(i)
-# # print(fact)
-
-
-
-# # start=int(input("enter the number"))
-# # end=int(input("enter the end number"))
-# # l=[]
-# # for i in range(start,end+1):
-# #     if i%2==0:
-# #         l.append(i)
-# # print(l)
-
-
-# # n=int(input("enter the number"))
-# # y=x=n
-# # sum=0
-# # count=0
-# # while n>0:
-# #     count=count+1
-# #     n=n//10
-# # while x>0:
-# #     digit=x%10
-# #     sum=sum+digit**count
-# #     x=x//10
-# # if y==sum:
-# #     print('armstron')
-# # else:
-# #     print('not armstrong')
-
-# n=int(input('enter the number'))
-# count=0
-# while n>0:
-#     n=n//10
-#     count=count+1
-# print(count)
-
+# n=5
+# s='A'
+# for i in range(1,n+1):
+#     print(" "*(n-i),end="")
+#     for j in range(i):
+#         print(s,end='')
+#         s=chr(ord(s)+1)
+#     print()
 
 
 # n=int(input("enter the number"))
-# x=n
+# fact=[]
+# for i in range(1,n+1):
+#     if n%i==0:
+#          fact.append(i)
+# print(fact)
+
+
+
+# start=int(input("enter the number"))
+# end=int(input("enter the end number"))
+# l=[]
+# for i in range(start,end+1):
+#     if i%2==0:
+#         l.append(i)
+# print(l)
+
+
+n=int(input("enter the number"))
+y=x=n
+sum=0
+count=0
+while n>0:
+    count=count+1
+    n=n//10
+while x>0:
+    digit=x%10
+    sum=sum+digit**count
+    x=x//10
+if y==sum:
+    print('armstron')
+else:
+    print('not armstrong')
+
+n=int(input('enter the number'))
+count=0
+while n>0:
+    n=n//10
+    count=count+1
+print(count)
+
+
+
+n=int(input("enter the number"))
+x=n
 # sum=0
 # while n>0:
 #     digit=n%10
