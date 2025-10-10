@@ -630,70 +630,70 @@ print(count)
 
 n=int(input("enter the number"))
 x=n
-# sum=0
-# while n>0:
-#     digit=n%10
-#     sum=sum+digit
-#     n=n//10
-# if x%sum==0:
-#     print("harsad number")
-# else:
-#     print("not a harsad number")
+sum=0
+while n>0:
+    digit=n%10
+    sum=sum+digit
+    n=n//10
+if x%sum==0:
+    print("harsad number")
+else:
+    print("not a harsad number")
 
-# n=int(input("enter the number"))
-# x=n
-# sum=0
-# s=n*n
-# while s>0:
-#     digit=s%10
-#     sum=sum+digit
-#     s=s//10
-# if x==sum:
-#     print("neon number")
-# else:
-#     print("not a neon number")
+n=int(input("enter the number"))
+x=n
+sum=0
+s=n*n
+while s>0:
+    digit=s%10
+    sum=sum+digit
+    s=s//10
+if x==sum:
+    print("neon number")
+else:
+    print("not a neon number")
 
-# n=int(input("enter the number"))
-# sum=0
-# product=1
-# while n>0:
-#     digit= n%10
-#     sum=sum+digit
-#     product=product+digit
+n=int(input("enter the number"))
+sum=0
+product=1
+while n>0:
+    digit= n%10
+    sum=sum+digit
+    product=product+digit
 
-# if sum==product:
-#     print("spy numbberr")
-# else:
-#     print("not a spy number")
-
-
-
-
-# n=5
-# s='A'
-# for i in range(n,0,-1):
-#     print(" "*(n-i),end="")
-#     l=[]
-#     for j in range(1,i+1):
-#         l.append(s)
-#         s=chr(ord(s)+1)
-#     print(' '.join(l))
+if sum==product:
+    print("spy numbberr")
+else:
+    print("not a spy number")
 
 
 
-# n=5
-# s='A'
-# for i in range(1,n+1):
-#     print(' ' * (n-i),end="")
-#     for i in range(1,i+1):
-#         print(s,end='')
-#         s=chr(ord(s)+1)
-#     print()
-# # n=n-1
-# for i in  range(n,0,-1):
-#     print(' '*(n-i),end="")
-#     for i in range(1,i+1):
-#         print(s,end=' ')
-#         s=chr(ord(s)+1)
-#     print()
+
+n=5
+s='A'
+for i in range(n,0,-1):
+    print(" "*(n-i),end="")
+    l=[]
+    for j in range(1,i+1):
+        l.append(s)
+        s=chr(ord(s)+1)
+    print(' '.join(l))
+
+
+
+n=5
+s='A'
+for i in range(1,n+1):
+    print(' ' * (n-i),end="")
+    for i in range(1,i+1):
+        print(s,end='')
+        s=chr(ord(s)+1)
+    print()
+# n=n-1
+for i in  range(n,0,-1):
+    print(' '*(n-i),end="")
+    for i in range(1,i+1):
+        print(s,end=' ')
+        s=chr(ord(s)+1)
+    print()
 
