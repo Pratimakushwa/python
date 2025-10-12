@@ -248,141 +248,138 @@ print(li)
 # #     print()
 
 
-# # n = 4
-# # for i in range(n, 0, -1):
-# #     print(' ' * (n - i), end='')   # spaces
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end='')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
+n = 4
+for i in range(n, 0, -1):
+    print(' ' * (n - i), end='')   # spaces
+    ch = 'A'
+    for j in range(i):
+        print(ch, end='')
+        ch = chr(ord(ch) + 1)
+    print()
 
-# # n = 4
-# # for i in range(n, 0, -1):
-# #     print(' ' * (n - i), end='')   # spaces
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end='')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
-
-
+n = 4
+for i in range(n, 0, -1):
+    print(' ' * (n - i), end='')   # spaces
+    ch = 'A'
+    for j in range(i):
+        print(ch, end='')
+        ch = chr(ord(ch) + 1)
+    print()
 
 
 
 
 
 
-# # n=5
-# # for i in range(1,n+1):
-# #     s=1
-# #     for j in range(1,i+1):
-# #         print(s,end="")
-# #         s=s+1
-# #     print()
-# # n=5
-# # for i in range(1,n+1):
-# #     s='A'
-# #     for j in range(1,i+1):
-# #         print(s,end="")
-# #         s=chr(ord(s)+1)
-# #     print()
 
 
-# # n=5
-# # for i in range(n,0,-1):
-# #     s=1
-# #     for i in range(i):
-# #         print(s,end="")
-# #         s=s+1
-# #     print()
-
-# # n=5
-# # for i in range(n,0,-1):
-# #     s='A'
-# #     for i in range(i):
-# #         print(s,end="")
-# #         s=chr(ord(s)+1)
-# #     print()
-
-
-# # n = 4
-# # for i in range(n, 0, -1):
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end=' ')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
+n=5
+for i in range(1,n+1):
+    s=1
+    for j in range(1,i+1):
+        print(s,end="")
+        s=s+1
+    print()
+n=5
+for i in range(1,n+1):
+    s='A'
+    for j in range(1,i+1):
+        print(s,end="")
+        s=chr(ord(s)+1)
+    print()
 
 
-# # n = 4
-# # for i in range(1,n+1):
-# #     print(' ' * (n - i), end='')   # spaces
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end='')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
+n=5
+for i in range(n,0,-1):
+    s=1
+    for i in range(i):
+        print(s,end="")
+        s=s+1
+    print()
 
-# # n = 5
-# # for i in range(1, n+1):
-# #     print(' ' * (n - i), end=' ')   # left spaces
-# #     s = 1                           # हर row में 1 से start
-# #     for j in range(i):
-# #         print(s, end='')
-# #         s = s + 1
-# #     print()
-
-# # n = 4
-# # for i in range(n,0,-1):
-# #     # print(' ' * (n - i), end='')   # spaces
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end=' ')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
+# n=5
+# for i in range(n,0,-1):
+#     s='A'
+#     for i in range(i):
+#         print(s,end="")
+#         s=chr(ord(s)+1)
+#     print()
 
 
+# n = 4
+# for i in range(n, 0, -1):
+#     ch = 'A'
+#     for j in range(i):
+#         print(ch, end=' ')
+#         ch = chr(ord(ch) + 1)
+#     print()
 
 
-# # n = 4
-# # for i in range(n, 0, -1):
-# #     print(' ' * (n - i), end='')   # spaces
-# #     ch = 'A'
-# #     for j in range(i):
-# #         print(ch, end='')
-# #         ch = chr(ord(ch) + 1)
-# #     print()
+n = 4
+for i in range(1,n+1):
+    print(' ' * (n - i), end='')   # spaces
+    ch = 'A'
+    for j in range(i):
+        print(ch, end='')
+        ch = chr(ord(ch) + 1)
+    print()
+
+n = 5
+for i in range(1, n+1):
+    print(' ' * (n - i), end=' ')   # left spaces
+    s = 1                           # हर row में 1 से start
+    for j in range(i):
+        print(s, end='')
+        s = s + 1
+    print()
+
+n = 4
+for i in range(n,0,-1):
+    # print(' ' * (n - i), end='')   # spaces
+    ch = 'A'
+    for j in range(i):
+        print(ch, end=' ')
+        ch = chr(ord(ch) + 1)
+    print()
+
+
+
+
+n = 4
+for i in range(n, 0, -1):
+    print(' ' * (n - i), end='')   # spaces
+    ch = 'A'
+    for j in range(i):
+        print(ch, end='')
+        ch = chr(ord(ch) + 1)
+    print()
                             
-# # n = 5
-# # for i in range(1,n+1):
-# #     s=1
-# #     for j in range(1,i+1):
-# #         print(j,end='')
-# #         s=s+1
-# #     print()
+n = 5
+for i in range(1,n+1):
+    s=1
+    for j in range(1,i+1):
+        print(j,end='')
+        s=s+1
+    print()
 
 
-# # n=5
+n=5
 
-# # for i in range(n,0,-1):
-# #     s=1
-# #     for j in range(1,i+1):
-# #         print(j,end=" ")
-# #         s=s+1
-# #     print()
+for i in range(n,0,-1):
+    s=1
+    for j in range(1,i+1):
+        print(j,end=" ")
+        s=s+1
+    print()
 
-# # n=5
-# # s=1
-# # for i in range(n,0,-1):
-# #     print(''*(n-i) ,end=" ")
-# #     for j in range(i):
-# #         print(j,end='')
-# #         s=s+1
-# #     print()
-
-
-
+n=5
+s=1
+for i in range(n,0,-1):
+    print(''*(n-i) ,end=" ")
+    for j in range(i):
+        print(j,end='')
+        s=s+1
+    print()
 
 
 
@@ -407,14 +404,17 @@ print(li)
 
 
 
-# # n=5
-# # s='A'
-# # for i in range(1,n+1):
+
+
+
+# n=5
+# s='A'
+# for i in range(1,n+1):
      
-# #      for j in range(1,i+1):
-# #          print(s,end=' ')
-# #          s=chr(ord(s)+1)
-# #      print()
+#      for j in range(1,i+1):
+#          print(s,end=' ')
+#          s=chr(ord(s)+1)
+#      print()
 # # n=5
 # # num=1
 # # for i in range(1,n+1):
